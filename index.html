@@ -13,9 +13,28 @@
 
         <!-- scripts  -->
         <script defer src="./styles/main.js"></script>
+        <style>
+      
+          body{
+            min-height: 30000px;
+          }
+          
+          #scroll-counter{
+            position:fixed;
+            top:0;
+            left:0;
+            color: red;
+            z-index: 1000;
+            background-color: #333;
+          }
+          
+        </style>
 
     </head>
     <body>
+      
+      <div id="scroll-counter">0</div>
+      
         <head>
             <!-- this seems like a good spot for the side-scroller intro -->
             <div>
@@ -37,5 +56,13 @@
                 <p>Mocha chocolate chocolate cookie almond milk cumin chili Thai dragon pepper jalapeño kimchi eating together pesto burritos samosa banana mint lime taco salsa cayenne sweet potato macadamia nut cookies.</p>    
             </section>
         </main>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+      
+      $(window).on("scroll", function(){
+        $("#scroll-counter").text(Math.round($(document).scrollTop()));
+      })
+      
+    </script>
     </body>
 </html>
