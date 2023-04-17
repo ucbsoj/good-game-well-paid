@@ -5,3 +5,51 @@ html, body {
     font-size: 24px;
 }
 
+head {
+    height: 100vh;
+}
+
+#title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+}
+
+#titleresize {
+    width: 50vw;
+}
+
+#subtitle {
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+#startbuttonbox {
+    width: 22vw;
+    padding: 25px 75px;
+    background-color: #B53D48;
+    border-radius: 70px;
+    border: solid #B53D48;
+    transition: background-color 0.6s linear;
+}
+
+#startbuttonbox:hover {
+    background-color: #1E1F20;
+}
+
+#startbuttontext {
+    width: 20vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#bylinetext {
+    width: 25vw;
+    margin-top: 8vw;
+}
+
+p {
+    font-size: 0.9rem;
+}
