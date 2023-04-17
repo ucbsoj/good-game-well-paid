@@ -1,12 +1,23 @@
 html, body {
-    background-color: #1E1F20;
+    background-color: #020300;
     color: #F4F5F5;
     font-family: 'Bitter', sans-serif;
     font-size: 24px;
+    overflow-x: hidden;
 }
 
 header {
     height: 100vh;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto
+}
+
+.landingtext {
+    position:relative;
+    z-index: 2;
 }
 
 #title {
@@ -15,19 +26,15 @@ header {
     margin-top: 20vh;
 }
 
-#titleresize {
-    width: 50vw;
-}
-
 #subtitle {
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
     margin-bottom: 10vh;
 }
 
 #startbuttonbox {
-    width: 22vw;
+    width: 200px;
     padding: 25px 75px;
     background-color: #B53D48;
     border-radius: 70px;
@@ -40,16 +47,43 @@ header {
 }
 
 #startbuttontext {
-    width: 20vw;
     margin-right: auto;
     margin-left: auto;
 }
 
 #bylinetext {
-    width: 25vw;
-    margin-top: 8vw;
+    margin-top: 15vh;
+}
+
+.explosion {
+    position: absolute;
+    z-index: 1;
+}
+
+#explosion1 {
+    width: 50%;
+    height: auto;
+    top: 0px;
+    left: 40vw;
+}
+
+#explosion2 {
+    width: 40%;
+    top: 0px;
+}
+
+#explosion3 {
+    width: 25%;
+    top: 50vh;
+    left: 70vw;
 }
 
 p {
     font-size: 0.9rem;
+}
+
+@media screen and (min-width:768px) {
+    #subtitle {
+        font-size: 1.2rem;
+    }
 }
