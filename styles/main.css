@@ -86,4 +86,19 @@ p {
     #subtitle {
         font-size: 1.2rem;
     }
+
+    #explosion1{
+        width: 20%;
+        left: 70vw;
+    }
+
+    #explosion2 {
+        width: 20%;
+        left: 10vw;
+    }
+
+    #explosion3 {
+        width: 10%;
+        left: 80vw;
+    }
 }
