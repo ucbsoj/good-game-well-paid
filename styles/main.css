@@ -78,6 +78,14 @@ header {
     left: 70vw;
 }
 
+/* landing page end */
+
+/* begin carousel */
+
+.carousel {
+    height: 100vh;
+}
+
 p {
     font-size: 0.9rem;
 }
