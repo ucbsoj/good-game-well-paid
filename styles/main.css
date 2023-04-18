@@ -6,6 +6,57 @@ html, body {
     overflow-x: hidden;
 }
 
+/* keyframes!!! */
+
+@keyframes tonext {
+    75% {
+      left: 0;
+    }
+    95% {
+      left: 100%;
+    }
+    98% {
+      left: 100%;
+    }
+    99% {
+      left: 0;
+    }
+  }
+  
+@keyframes tostart {
+    75% {
+      left: 0;
+    }
+    95% {
+      left: -300%;
+    }
+    98% {
+      left: -300%;
+    }
+    99% {
+      left: 0;
+    }
+ }
+  
+@keyframes snap {
+    96% {
+      scroll-snap-align: center;
+    }
+    97% {
+      scroll-snap-align: none;
+    }
+    99% {
+      scroll-snap-align: none;
+    }
+    100% {
+      scroll-snap-align: center;
+    }
+}
+
+/* end keyframes */
+
+/* begin landing page code */
+
 header {
     height: 100vh;
 }
@@ -28,7 +79,7 @@ header {
 
 #subtitle {
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-align: center;
     margin-bottom: 10vh;
 }
@@ -74,7 +125,7 @@ header {
 
 #explosion3 {
     width: 25%;
-    top: 50vh;
+    top: 40vh;
     left: 70vw;
 }
 
@@ -84,6 +135,62 @@ header {
 
 .carousel {
     height: 100vh;
+    width: 100vw;
+    scrollbar-color: transparent transparent;
+}
+
+.carousel-viewport {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-slide {
+    position: relative;
+    flex: 0 0 100%;
+    width: 100%;
+}
+
+.carousel-snapper {
+    margin-top: 100px;
+}
+
+.carousel-button {
+    width: 100px;
+}
+
+.carousel-next {
+    position: relative;
+    left: 250px;
+}
+
+.introtextbox {
+    justify-content: center;
+    width: 100%;
+}
+
+.introtext {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20%;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    text-align: center;
+}
+
+#slide1img {
+    width: 100%;
+    margin-top: 30%;
+    align-items: center;
+}
+
+.introcharacter {
+    height: 20vh;
+}
+
+.introgamer {
+    height: 23vh;
 }
 
 p {
@@ -101,7 +208,7 @@ p {
     }
 
     #explosion2 {
-        width: 20%;
+        width: 15%;
         left: 10vw;
     }
 
@@ -109,4 +216,26 @@ p {
         width: 10%;
         left: 80vw;
     }
+
+    #startbuttonbox {
+        width: 250px;
+    }
+
+    #bylinetext {
+        margin-top: 10vh;
+    }
+
+    /* end landing page 
+
+    begin carousel  */
+
+    .introtext {
+        display: flex;
+        flex-wrap: wrap;
+
+        margin-top: 8%;
+        margin-right: 10vw;
+        margin-left: 10vw;
+    }
+
 }
