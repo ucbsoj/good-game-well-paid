@@ -4,6 +4,7 @@ html, body {
     font-family: 'Bitter', sans-serif;
     font-size: 24px;
     overflow-x: hidden;
+    scroll-behavior: smooth
 }
 
 /* keyframes!!! */
@@ -133,6 +134,13 @@ header {
     left: 70vw;
 }
 
+#explosion4 {
+    width: 30%;
+    top: 37vh;
+    left: 0;
+}
+
+
 /* landing page end */
 
 /* begin carousel */
@@ -233,6 +241,12 @@ a:hover {
     #explosion3 {
         width: 10%;
         left: 80vw;
+    }
+
+    #explosion4 {
+        width: 20%;
+        top: 50vh;
+        left: 0;
     }
 
     #startbuttonbox {
