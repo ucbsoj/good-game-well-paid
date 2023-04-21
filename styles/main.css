@@ -164,8 +164,15 @@ header {
     width: 100%;
 }
 
+.carousel-slide-content {
+    height: 50vh;
+}
+
 .carousel-snapper {
     margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
     width: 100%;
     height: auto;
 }
