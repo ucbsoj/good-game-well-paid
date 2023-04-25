@@ -117,10 +117,9 @@ header {
 }
 
 #explosion1 {
-    width: 50%;
-    height: auto;
+    width: 40%;
     top: 0px;
-    left: 40vw;
+    left: 50vw;
 }
 
 #explosion2 {
@@ -136,10 +135,23 @@ header {
 
 #explosion4 {
     width: 30%;
-    top: 37vh;
+    top: 64vh;
     left: 0;
 }
 
+#sparkle1 {
+    width: 20%;
+}
+
+#sparkle2 {
+    width: 20%;
+    left: 70vw;
+    top: 70vh;
+}
+
+#widesparkles {
+    visibility: collapse;
+}
 
 /* landing page end */
 
@@ -203,21 +215,33 @@ header {
 #slide1img {
     width: 100%;
     margin-top: 30%;
-    margin-left: 10%;
+    margin-left: 5%;
     align-items: center;
 }
 
 .introcharacter {
-    height: 20vh;
+    height: 24vh;
 }
 
 .introgamer {
-    height: 23vh;
+    height: 26vh;
+}
+
+#slide2img {
+    width: 100%;
+    margin-top: 30%;
+    margin-left: 42%;
+    align-items: center;
+    justify-content: center;
+}
+
+#playinggif {
+    height: 28vh;
 }
 
 #slide3img {
     width: 100%;
-    margin-top: 20%;
+    margin-top: 30%;
     margin-left: 10%;
     align-items: center;
     justify-content: center;
@@ -268,6 +292,40 @@ a:hover {
         left: 0;
     }
 
+    #sparkle1 {
+        width: 5%;
+        left: 30vw;
+        top: 10vh;
+    }
+
+    #sparkle2 {
+        width: 5%;
+        left: 70vw;
+        top: 70vh;
+    }
+
+    #widesparkles {
+        visibility: visible;
+    }
+
+    #sparkle3 {
+        width: 5%;
+        top: 80vh;
+        left: 82vw;
+    }
+
+    #sparkle4 {
+        width: 7%;
+        top: 6vh;
+        left: 60vw;
+    }
+
+    #sparkle5 {
+        width: 5%;
+        top: 50vh;
+        left: 28vw;
+    }
+
     #startbuttonbox {
         width: 250px;
     }
@@ -289,21 +347,32 @@ a:hover {
         justify-content: center;
     }
 
+    .snapper-holder {
+        width: 100%;
+        justify-content: center;
+        border: 2px red solid;
+    }
+
     .carousel-snapper {
         margin-top: 100px;
-        width: 100%;
-        height: auto;
+        width: 50vw;
+        justify-content: center;
+        border: 2px red solid;
     }
     
     .carousel-button {
         width: 100px;
-        justify-content: center;
+        margin: auto;
     }
     
-    .carousel-next {
+    /* .carousel-next {
         position: relative;
         left: 250px;
     }
+
+    .carousel-prev {
+        position: relative;
+    } */
 
     #slide1img {
         width: 100%;
