@@ -251,6 +251,28 @@ header {
     height: 25vh;
 }
 
+#slide4img {
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+#finishline {
+    height: 40vh;
+    margin-right: 5%;
+}
+
+#celebrationgif {
+    height: 28vh;
+    margin-right: 5%;
+}
+
+#trophy {
+    height: 20vh;
+}
+
 p {
     font-size: 0.9rem;
 }
@@ -376,8 +398,8 @@ a:hover {
 
     #slide1img {
         width: 100%;
-        margin-top: 5%;
-        margin-left: 25%;
+        margin-top: 8%;
+        margin-left: 22%;
         justify-content: center;
     }
 
@@ -389,16 +411,28 @@ a:hover {
         height: 43vh;
     }
 
+    #slide2img {
+        width: 100%;
+        margin-top: 8%;
+        margin-left: 45%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #playinggif {
+        height: 40vh;
+    }
+
     #slide3img {
         width: 100%;
-        margin-top: 5%;
+        margin-top: 8%;
         margin-left: 30%;
         align-items: center;
         justify-content: center;
     }
     
     .runninggif {
-        height: 42vh;
+        height: 38vh;
     }
 
     
