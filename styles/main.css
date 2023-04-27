@@ -54,6 +54,21 @@ html, body {
     }
 }
 
+@keyframes advertpop {
+    0% {
+        width: 0;
+    }
+    90% {
+        width: 28vw;
+    }
+    94% {
+        width: 26vw;
+    }
+    100% {
+        width: 24vw;
+    }
+}
+
 /* end keyframes */
 
 /* begin landing page code */
@@ -172,6 +187,7 @@ header {
 
 .carousel-slide {
     position: relative;
+    z-index: 1;
     flex: 0 0 100%;
     width: 100%;
 }
@@ -217,6 +233,7 @@ header {
     margin-top: 26%;
     margin-left: 17%;
     align-items: center;
+    z-index: 1;
 }
 
 .introcharacter {
@@ -227,6 +244,18 @@ header {
     height: 32vh;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.background {
+    position: relative;
+    z-index: -1;
+}
+
+.mountains {
+    height: 60vh;
+    position: relative;
+    bottom: 55vh;
+    right: 20vw;
 }
 
 #slide2img {
@@ -295,6 +324,19 @@ header {
     height: 32vh;
     margin-left: 30%;
     margin-top: 17%;
+}
+
+.ad {
+    position: relative;
+    z-index: 1;
+    animation: 0.6s 1 advertpop;
+    animation-delay: 1s;
+}
+
+#ad1 {
+    width: 0;
+    bottom: 20vh;
+    right: 45vw;
 }
 
 p {
