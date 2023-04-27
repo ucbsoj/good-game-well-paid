@@ -214,29 +214,31 @@ header {
 
 #slide1img {
     width: 100%;
-    margin-top: 30%;
-    margin-left: 5%;
+    margin-top: 26%;
+    margin-left: 17%;
     align-items: center;
 }
 
 .introcharacter {
-    height: 24vh;
+    height: 28vh;
 }
 
 .introgamer {
-    height: 26vh;
+    height: 32vh;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #slide2img {
     width: 100%;
     margin-top: 30%;
-    margin-left: 42%;
+    margin-left: 40%;
     align-items: center;
     justify-content: center;
 }
 
 #playinggif {
-    height: 28vh;
+    height: 32vh;
 }
 
 #slide3img {
@@ -248,7 +250,7 @@ header {
 }
 
 .runninggif {
-    height: 25vh;
+    height: 28vh;
 }
 
 #slide4img {
@@ -271,6 +273,28 @@ header {
 
 #trophy {
     height: 20vh;
+}
+
+#slide5img {
+    width: 100%;
+    margin-top: 20%;
+    margin-left: 40%;
+}
+
+#gamermoney {
+    height: 32vh;
+}
+
+#slide6img {
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+#gamermoneybag {
+    height: 32vh;
+    margin-left: 30%;
+    margin-top: 17%;
 }
 
 p {
@@ -435,6 +459,26 @@ a:hover {
         height: 38vh;
     }
 
-    
+    #slide4img {
+        width: 100%;
+        margin-top: 2%;
+        margin-left: 28%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #finishline {
+        height: 52vh;
+        margin-right: 8%;
+    }
+
+    #celebrationgif {
+        height: 40vh;
+        margin-right: 8%;
+    }
+
+    #trophy {
+        height: 30vh;
+    }
 
 }
