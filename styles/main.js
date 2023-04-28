@@ -1,5 +1,5 @@
 const totalFrames = 18;
-const animationDuration = 1300;
+const animationDuration = 1000;
 const timePerFrame = animationDuration / totalFrames;
 let timeWhenLastUpdate;
 let timeFromLastUpdate;
@@ -10,9 +10,11 @@ function step(startTime) {
     timeFromLastUpdate = startTime - timeWhenLastUpdate;
 
     if (timeFromLastUpdate > timePerFrame) {
-        // hide all frames
+
         $('.gamerplaying').css('opacity', 0);
+
         $(`.playing-${frameNumber}`).css('opacity', 1);
+        
         timeWhenLastUpdate = startTime;
 
         if (frameNumber >= totalFrames) {

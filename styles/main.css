@@ -345,7 +345,7 @@ header {
 #ad2 {
    width: 30vw;
    bottom: 30vh;
-   right: 38vw;
+   right: 35vw;
 }
 
 #ad3 {
@@ -361,7 +361,27 @@ header {
 }
 
 #ad5 {
+    width: 30vw;
+    bottom: 20vh;
+    right: 45vw;
+}
+
+#adsix {
     width: 20vw;
+    bottom: 40vh;
+    left: 13vw;
+}
+
+#ad7 {
+    width: 30vw;
+    bottom: 60vh;
+    right: 15vw;
+}
+
+#ad8 {
+    width: 20vw;
+    bottom: 37vh;
+    right: 10vw;
 }
 
 p {
