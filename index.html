@@ -20,9 +20,6 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
 
-        <!-- scripts  -->
-        <script defer src="./styles/main.js"></script>
-
         <!-- scroll counter styling -->
         <style>
       
@@ -137,11 +134,13 @@
                       <p class="introtext">Most play games for entertainment.</p>
                     </div>
                     <div id="slide2img">
-                      <img src="./assets/slide 2 anim/gamerplaying1.png" class="gamerplaying playing-1" alt="The gamer plays a handheld console">
-                      <img src="./assets/slide 2 anim/gamerplaying2.png" class="gamerplaying playing-2" alt="The gamer plays a handheld console">
-                      <img src="./assets/slide 2 anim/gamerplaying3.png" class="gamerplaying playing-3" alt="The gamer plays a handheld console">
-                      <img src="./assets/slide 2 anim/gamerplaying4.png" class="gamerplaying playing-4" alt="The gamer plays a handheld console">
-                      <img src="./assets/slide 2 anim/gamerplaying5.png" class="gamerplaying playing-5" alt="The gamer plays a handheld console">
+                      <img data-frames="5" src="./assets/slide-2-anim/gamerplaying1.png" class="gamerplaying playing-1" alt="The gamer plays a handheld console">
+<!--
+                      <img src="./assets/slide-2-anim/gamerplaying2.png" class="gamerplaying playing-2" alt="The gamer plays a handheld console">
+                      <img src="./assets/slide-2-anim/gamerplaying3.png" class="gamerplaying playing-3" alt="The gamer plays a handheld console">
+                      <img src="./assets/slide-2-anim/gamerplaying4.png" class="gamerplaying playing-4" alt="The gamer plays a handheld console">
+                      <img src="./assets/slide-2-anim/gamerplaying5.png" class="gamerplaying playing-5" alt="The gamer plays a handheld console">
+-->
                     </div>
                   </div>
                   <div class="carousel-snapper">
@@ -270,7 +269,7 @@
                     <p>Beyond the US, other nations and regulatory bodies have been examining video game monetization and applying laws ranging from disclosures to outright bans. For years, China has required games with loot boxes disclose the probabilities of items within those boxes. In Belgium, loot boxes were ruled illegal under the nation's existing gambling laws. The United Kingdom recently decided not to legislate loot boxes under the nation's gambling laws, but has called for more research and industry-self regulation.</p>
                     <p>It is unclear, in all the conversation about loot boxes, how actual video game players feel. And through this unpacking of video game monetization, it's clear that loot boxes are not the only monetization tactic to be worried about.</p>
                   </section>
-                </div>
+             
                 <div class="lootbox">
                   <!-- put the loot box anim here? -->
                 </div>
@@ -280,19 +279,20 @@
                   <section>
                     <p>In the 1990’s, most were concerned about the content within video games, not how games made money. This was mostly because all the games at the time were either single-purchase cartridges for at home consoles or at an arcade. A handful of games, including Midway Manufacturing’s 1992 ‘Mortal Kombat’, sparked the ire of parents worried that their children were being shown violent or sexual content through video games. This anger climbed its way to the Senate Governmental Affairs and Judiciary Subcommittees, chaired by Senators Herbert Kohl and Joe Liebermann, who held a series of hearings in 1993 and 1994 to address violence in video games.</p>
                     <p>The Entertainment Software Rating Board was formed from those hearings. Better known as the ESRB, the board has given ratings for video games available on consoles or PC (computer) since 1994.</p>
-                    </p>
                   </section>
                 </div>
               </div>
             </div>
+          </div>
         </main>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="styles/main.js"></script>
     <script>
       
       $(window).on("scroll", function(){
         $("#scroll-counter").text(Math.round($(document).scrollTop()));
-      })
-      
+      });
+
     </script>
     </body>
 </html>
