@@ -210,6 +210,15 @@ header {
     width: 100px;
 }
 
+#final-button {
+    position: relative;
+    bottom: 100px;
+}
+
+#carousel-continue-button {
+    width: 50px;
+}
+
 .introtextbox {
     justify-content: center;
     width: 100%;
@@ -262,9 +271,9 @@ header {
     justify-content: center;
 }
 
-/* #playinggif {
+#playinggif {
     height: 32vh;
-} */
+}
 
 .gamerplaying {
     height: 34vh;
@@ -399,6 +408,19 @@ a:hover {
     color: #CCEF76;
 }
 
+.lootbox {
+    margin-top: 10%;
+    width: 100vw;
+}
+
+/* .lootboxbox {
+
+} */
+
+.lootboximg {
+    width: 100vw;
+}
+
 @media screen and (min-width:768px) {
     #subtitle {
         font-size: 1.2rem;
@@ -528,9 +550,9 @@ a:hover {
         margin-left: 46%;
     }
     
-    /* #playinggif {
+    #playinggif {
         height: 42vh;
-    } */
+    }
 
     #gamerplaying {
         height: 42vh;

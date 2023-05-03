@@ -1,43 +1,30 @@
+// instantiate the scrollama
+const scroller = scrollama();
 
-function swapImage = function(obj, newSrc){
+// setup the instance, pass callback functions
+scroller
+  .setup({
+    step: ".step",
+  })
+  .onStepEnter((response) => {
+
+    console.log("enter:");
+    console.log(response);
+
+    if (response.index >= 1) {
+        document.getElementById("funfactbox1");
+        $("#funfactbox1 img").attr("src", "./assets/funfact-box-1.gif")
+    }
+
+    // function swapImage = function(obj, newSrc){
   
-    let src = $(obj).attr("src", newSrc);
-    
-    //$(this).attr("src", src.replace(/(^.*?)\d+.(png)/g, "$1" + i + ".png");
-}
+    //     let src = $(obj).attr("src", newSrc);
+        
+    //     //$(this).attr("src", src.replace(/(^.*?)\d+.(png)/g, "$1" + i + ".png");
+    // }
+
+  })
+  .onStepExit((response) => {
+    // { element, index, direction }
+  });
   
-
-
-
-//const totalFrames = 18;
-//const animationDuration = 1000;
-//const timePerFrame = animationDuration / totalFrames;
-//let timeWhenLastUpdate;
-//let timeFromLastUpdate;
-//let frameNumber = 1;
-//
-//function step(startTime) {
-//    if (!timeWhenLastUpdate) timeWhenLastUpdate = startTime;
-//    timeFromLastUpdate = startTime - timeWhenLastUpdate;
-//
-//    if (timeFromLastUpdate > timePerFrame) {
-//
-//        $('.gamerplaying').css('opacity', 0);
-//
-//        $(`.playing-${frameNumber}`).css('opacity', 1);
-//        
-//        timeWhenLastUpdate = startTime;
-//
-//        if (frameNumber >= totalFrames) {
-//            frameNumber = 1;
-//          } else {
-//            frameNumber = frameNumber + 1;
-//          }
-//    }
-//
-//    requestAnimationFrame(step);
-//}
-//
-//$(window).on('load', () => {
-//    requestAnimationFrame(step);
-//});
