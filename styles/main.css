@@ -333,65 +333,15 @@ header {
 }
 
 #gamermoneybag {
-    height: 32vh;
-    margin-left: 30%;
-    margin-top: 17%;
+    height: 53vh;
+    align-items: center;
+    text-align: center;
 }
 
-.ad {
-    position: relative;
-    z-index: 1;
-    /* animation: 0.6s 1 advertpop;
-    animation-delay: 1s; */
+#thisisalootbox {
+    height: 53vh;
 }
 
-#ad1 {
-    width: 20vw;
-    bottom: 20vh;
-    right: 40vw;
-} 
-
-#ad2 {
-   width: 30vw;
-   bottom: 30vh;
-   right: 35vw;
-}
-
-#ad3 {
-    width: 20vw;
-    bottom: 34vh;
-    left: 52vw;
-}
-
-#ad4 {
-    width: 30vw;
-    bottom: 25vh;
-    left: 20vw;
-}
-
-#ad5 {
-    width: 30vw;
-    bottom: 20vh;
-    right: 45vw;
-}
-
-#adsix {
-    width: 20vw;
-    bottom: 40vh;
-    left: 13vw;
-}
-
-#ad7 {
-    width: 30vw;
-    bottom: 60vh;
-    right: 15vw;
-}
-
-#ad8 {
-    width: 20vw;
-    bottom: 37vh;
-    right: 10vw;
-}
 
 p {
     font-size: 0.9rem;
