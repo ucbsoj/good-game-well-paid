@@ -101,8 +101,8 @@ header {
 }
 
 #startbuttonbox {
-    width: 200px;
-    padding: 25px 75px;
+    width: 40vw;
+    padding: 20px 60px;
     background-color: #B53D48;
     border-radius: 70px;
     border: solid #B53D48;
@@ -150,18 +150,25 @@ header {
 
 #explosion4 {
     width: 30%;
-    top: 64vh;
+    top: 58vh;
     left: 0;
+}
+
+#explosion5 {
+    width: 25%;
+    top: 35vh;
+    left: 10vw;
 }
 
 #sparkle1 {
     width: 20%;
+    top: 85vh;
 }
 
 #sparkle2 {
     width: 20%;
     left: 70vw;
-    top: 70vh;
+    top: 80vh;
 }
 
 #widesparkles {
@@ -183,6 +190,7 @@ header {
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
+    height: 100%;
 }
 
 .carousel-slide {
@@ -193,7 +201,7 @@ header {
 }
 
 .carousel-slide-content {
-    height: 50vh;
+    height: 60vh;
 }
 
 .carousel-snapper {
@@ -210,13 +218,24 @@ header {
     width: 100px;
 }
 
-#final-button {
-    position: relative;
-    bottom: 100px;
+#storycontinuebutton {
+    width: 60vw;
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #B53D48;
+    border-radius: 70px;
+    border: solid #B53D48;
+    transition: background-color 0.6s linear;
 }
 
-#carousel-continue-button {
-    width: 50px;
+#storycontinuebutton:hover {
+    background-color: #1E1F20;
+}
+
+#continuebutton {
+    width: 45vw;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .introtextbox {
@@ -236,7 +255,7 @@ header {
 #slide1img {
     width: 100%;
     margin-top: 26%;
-    margin-left: 17%;
+    margin-left: 5%;
     z-index: 1;
 }
 
@@ -246,21 +265,14 @@ header {
 
 .introgamer {
     height: 32vh;
-    margin-left: 12%;
-    margin-right: 12%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .background {
     position: relative;
     z-index: -1;
 }
-
-/* .mountains {
-    height: 60vh;
-    position: relative;
-    bottom: 55vh;
-    right: 20vw;
-} */
 
 #slide2img {
     position: relative;
@@ -284,32 +296,29 @@ header {
 
 #slide3img {
     width: 100%;
-    margin-top: 30%;
-    margin-left: 10%;
-    align-items: center;
-    justify-content: center;
+    margin-top: 10%;
+    text-align: center;
 }
 
 .runninggif {
     height: 28vh;
+    text-align: center;
 }
 
 #slide4img {
     width: 100%;
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 5%;
     align-items: center;
     justify-content: center;
 }
 
 #finishline {
-    height: 40vh;
-    margin-right: 5%;
+    height: 42vh;
 }
 
 #celebrationgif {
     height: 28vh;
-    margin-right: 5%;
 }
 
 #trophy {
@@ -318,8 +327,8 @@ header {
 
 #slide5img {
     width: 100%;
-    margin-top: 20%;
-    margin-left: 40%;
+    margin-top: 35%;
+    margin-left: 38%;
 }
 
 #gamermoney {
@@ -329,21 +338,23 @@ header {
 #slide6img {
     width: 100%;
     margin-top: 5%;
-    margin-left: 10%;
 }
 
 #gamermoneybag {
-    height: 53vh;
-    align-items: center;
-    text-align: center;
+    height: 50vh;
+    position: relative;
+    right: 22vw;
 }
 
 #slide7img {
     width: 100%;
+    margin-top: 10%;
 }
 
 #thisisalootbox {
     height: 50vh;
+    position: relative;
+    right: 22vw;
 }
 
 .progress {
@@ -367,7 +378,7 @@ header {
 }
 
 p {
-    font-size: 0.9rem;
+    font-size: 0.75rem;
 }
 
 a {
@@ -406,9 +417,9 @@ footer {
     width: 80vw;
 }
 
+/*************** THIS IS THE FORMATTING FOR MEDIUM SCREENS ******************/
 
-
-@media screen and (min-width:768px) {
+@media screen and (min-width:786px) and (max-width:1007px) {
     #subtitle {
         font-size: 1.2rem;
     }
@@ -432,6 +443,12 @@ footer {
         width: 20%;
         top: 50vh;
         left: 0;
+    }
+
+    #explosion5 {
+        width: 8%;
+        top: 35vh;
+        left: 10vw;
     }
 
     #sparkle1 {
@@ -504,15 +521,26 @@ footer {
         width: 100px;
         margin: auto;
     }
-    
-    /* .carousel-next {
-        position: relative;
-        left: 250px;
-    }
 
-    .carousel-prev {
-        position: relative;
-    } */
+    #storycontinuebutton {
+        width: 50vw;
+        display: inline-block;
+        padding: 12px 30px;
+        background-color: #B53D48;
+        border-radius: 70px;
+        border: solid #B53D48;
+        transition: background-color 0.6s linear;
+    }
+    
+    #storycontinuebutton:hover {
+        background-color: #1E1F20;
+    }
+    
+    #continuebutton {
+        width: 35vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
     #slide1img {
         width: 100%;
@@ -589,13 +617,15 @@ footer {
 
     #slide6img {
         width: 100%;
+        margin-top: 5%;
     }
-
+    
     #gamermoneybag {
-        height: 55vh;
-        margin-right: 45%;
+        height: 50vh;
+        position: relative;
+        left: 26vw;
     }
-
+    
     #slide7img {
         width: 100%;
     }
@@ -603,6 +633,243 @@ footer {
     #thisisalootbox {
         height: 52vh;
         margin-right: 45%;
+        position: relative;
+        left: 26vw;
+    }
+
+    .lootbox {
+        margin-top: 10%;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .lootboxbox {
+        width: 30vw;
+    }
+
+    .lootboximg {
+        width: 100%;
+    }
+}
+
+/*********************** BIG SCREEN FORMATTING HERE ***********************/
+
+@media screen and (min-width:1008px) {
+    #subtitle {
+        font-size: 1.2rem;
+    }
+
+    #explosion1{
+        width: 10%;
+        left: 70vw;
+    }
+
+    #explosion2 {
+        width: 15%;
+        top: 10vh;
+        left: 10vw;
+    }
+
+    #explosion3 {
+        width: 8%;
+        left: 80vw;
+    }
+
+    #explosion4 {
+        width: 15%;
+        top: 60vh;
+        left: 0;
+    }
+
+    #explosion5 {
+        width: 10%;
+        top: 30vh;
+        left: 10vw;
+    }
+
+    #sparkle1 {
+        width: 5%;
+        left: 30vw;
+        top: 10vh;
+    }
+
+    #sparkle2 {
+        width: 5%;
+        left: 70vw;
+        top: 70vh;
+    }
+
+    #widesparkles {
+        visibility: visible;
+    }
+
+    #sparkle3 {
+        width: 5%;
+        top: 80vh;
+        left: 82vw;
+    }
+
+    #sparkle4 {
+        width: 7%;
+        top: 6vh;
+        left: 60vw;
+    }
+
+    #sparkle5 {
+        width: 5%;
+        top: 50vh;
+        left: 28vw;
+    }
+
+    #startbuttonbox {
+        width: 250px;
+    }
+
+    #bylinetext {
+        margin-top: 10vh;
+        justify-content: center;
+    }
+
+    /* end landing page 
+
+    begin carousel  */
+
+    .introtext {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1.2rem;
+        margin-top: 5%;
+        justify-content: center;
+    }
+
+    .snapper-holder {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .carousel-snapper {
+        width: 50vw;
+        justify-content: center;
+    }
+
+    #storycontinuebutton {
+        width: 30vw;
+        display: inline-block;
+        padding: 12px 30px;
+        background-color: #B53D48;
+        border-radius: 70px;
+        border: solid #B53D48;
+        transition: background-color 0.6s linear;
+    }
+    
+    #storycontinuebutton:hover {
+        background-color: #1E1F20;
+    }
+    
+    #continuebutton {
+        width: 20vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .carousel-button {
+        width: 100px;
+        margin: auto;
+    }
+
+    #slide1img {
+        width: 100%;
+        margin-top: 6%;
+        margin-left: 25%;
+        justify-content: center;
+    }
+
+    .introcharacter {
+        height: 40vh;
+    }
+    
+    .introgamer {
+        height: 43vh;
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+
+    #slide2img {
+        width: 100%;
+        margin-top: 8%;
+        margin-left: 46%;
+    }
+    
+    #playinggif {
+        height: 42vh;
+    }
+
+    #gamerplaying {
+        height: 42vh;
+    }
+
+    #slide3img {
+        width: 100%;
+        margin-top: 8%;
+    }
+    
+    .runninggif {
+        height: 40vh;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    #slide4img {
+        width: 100%;
+        margin-top: 2%;
+        margin-left: 28%;
+    }
+
+    #finishline {
+        height: 52vh;
+        margin-right: 8%;
+    }
+
+    #celebrationgif {
+        height: 40vh;
+        margin-right: 8%;
+    }
+
+    #trophy {
+        height: 30vh;
+    }
+
+    #slide5img {
+        width: 100%;
+        margin-top: 12%;
+        margin-left: 48%;
+    }
+    
+    #gamermoney {
+        height: 34vh;
+    }
+
+    #slide6img {
+        width: 100%;
+        margin-top: 5%;
+    }
+    
+    #gamermoneybag {
+        height: 50vh;
+        position: relative;
+        left: 33vw;
+    }
+    
+    #slide7img {
+        width: 100%;
+        margin-top: 0%;
+    }
+
+    #thisisalootbox {
+        height: 52vh;
+        margin-right: 45%;
+        position: relative;
+        left: 33vw;
     }
 
     .lootbox {

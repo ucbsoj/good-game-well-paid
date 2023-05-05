@@ -1,10 +1,4 @@
 <!DOCTYPE html>
-
-<!-- QUESTIONS FOR JRUE IN OH -->
-<!-- 
-1) bootstrap grid not working on the body :( pls help 
-2) i want the <head> to be 100 the height of the viewport on load, so when folks click the start button it autoscrolls them to the next part. why isn't the viewheight thing working?-->
-
 <html>
     <head>
         <meta charset="utf-8">
@@ -43,17 +37,17 @@
             <!-- this seems like a good spot for the landing page :D -->
             <div class="container landingtext">
                 <div class="row">
-                  <div class="offset-md-4 offset-2 col-md-6 col-8" id="title">
+                  <div class="offset-md-4 col-md-6 col-11" id="title">
                     <img src="./assets/manual title.png"  alt=" Good Game, Well Paid" class="img-fluid">
                   </div>
                 </div>
                 <div class="row">
-                  <div class="offset-1 offset-md-2 col-10 col-md-8">
+                  <div class="offset-md-2 col-11 col-md-8">
                     <p id="subtitle">Video game regulations is like the Wild West. Few rules and lots of gambling.</p>
                   </div>
                 </div>
               <div class="row">
-                <div class="offset-md-4 offset-1 col-md-6 col-10 justify-content-center">
+                <div class="offset-md-4 offset-1 col-md-6 col-10">
                   <a href="#carouselanchor">
                     <div id="startbuttonbox">
                       <img src="./assets/start button.png" alt="Click here to Start" class="img-fluid" id="startbuttontext">
@@ -62,39 +56,42 @@
                 </div>
               </div>
               <div class="row">
-                <div class="offset-md-3 offset-1 col-md-6 col-10" id="bylinebox">
+                <div class="offset-md-3 col-md-6 col-11" id="bylinebox">
                   <img src="./assets/byline.png" alt="Produced by B. Sakura Cannestra" class="img-fluid" id="bylinetext">
                 </div>
               </div>
             </div>
             <div>
               <div class="explosion" id="explosion1">
-                <img src="./assets/explosion 2.gif" alt="Looping gif of green pixelated explosion" class="img-fluid">
+                <img src="./assets/explosions/explosion 2.gif" alt="Looping gif of green pixelated explosion" class="img-fluid">
               </div>
               <div class="explosion" id="explosion2">
-                <img src="./assets/explosion 1.gif" alt="Looping gif of yellow pixelated explosion" class="img-fluid">
+                <img src="./assets/explosions/explosion 1.gif" alt="Looping gif of yellow pixelated explosion" class="img-fluid">
               </div>
               <div class="explosion" id="explosion3">
-                <img src="./assets/explosion 3.gif" alt="Looping gif of blue pixelated explosion" class="img-fluid">
+                <img src="./assets/explosions/explosion 3.gif" alt="Looping gif of blue pixelated explosion" class="img-fluid">
               </div>
               <div class="explosion" id="explosion4">
-                <img src="./assets/explosion 2 flip.gif" alt="Looping gif of green pixelated explosion" class="img-fluid">
+                <img src="./assets/explosions/explosion 2 flip.gif" alt="Looping gif of green pixelated explosion" class="img-fluid">
+              </div>
+              <div class="explosion" id="explosion5">
+                <img src="./assets/explosions/explosion 3 flip.gif" alt="Looping gif of blue pixelated explosion" class="img-fluid">
               </div>
               <div class="explosion" id="sparkle1">
-                <img src="./assets/sparkle 1.gif" alt="More red sparkles" class="img-fluid">
+                <img src="./assets/explosions/sparkle 1.gif" alt="More red sparkles" class="img-fluid">
               </div>
               <div class="explosion" id="sparkle2">
-                <img src="./assets/sparkle 2.gif" alt="More yellow sparkles" class="img-fluid">
+                <img src="./assets/explosions/sparkle 2.gif" alt="More yellow sparkles" class="img-fluid">
               </div>
               <div id="widesparkles">
                 <div class="explosion" id="sparkle3">
-                  <img src="./assets/sparkle 1.gif" class="img-fluid">
+                  <img src="./assets/explosions/sparkle 1.gif" class="img-fluid">
                 </div>
                 <div class="explosion" id="sparkle4">
-                  <img src="./assets/sparkle 2.gif" class="img-fluid">
+                  <img src="./assets/explosions/sparkle 2.gif" class="img-fluid">
                 </div>
                 <div class="explosion" id="sparkle5">
-                  <img src="./assets/sparkle 2.gif" class="img-fluid">
+                  <img src="./assets/explosions/sparkle 2.gif" class="img-fluid">
                 </div>
               </div>
             </div>
@@ -231,11 +228,8 @@
                   </div>
                 </div>
                 <div class="carousel-snapper">
-                  <a href="#carouselslide-6" class="carousel-prev">
-                    <img src="./assets/carousel button prev.png" alt="Previous slide button" class="carousel-button" id="final-button">
-                  </a>
-                  <a href="#storycontinue" class="carousel-down">
-                    <img src="./assets/carousel button down.png" alt="Continue to story button" id="carousel-continue-button">
+                  <a href="#storycontinue" id="storycontinuebutton">
+                    <img src="./assets/continue.png" alt="Continue to story button" class="img-fluid" id="continuebutton">
                   </a>
                 </div>
               </div>
@@ -254,14 +248,14 @@
                   <p>Suffice to say the video game industry is large, worth more than the film and music industries combined. Revenue is projected to break $400 billion next year, according to market data from Statista. For comparison, the film industry hit $81 billion in 2021, also according to Statista.</p>
                   <p>The way video games make money has been spotlit by researchers and regulators in recent years. Most console or computer games make money just from people buying the game. An increasing number of games, especially mobile games, are adopting a "freemium" revenue model, where the game itself is available for free, but more content, such as new costumes or characters, exists behind paywalls. The strategies a game uses to make money is also known as its monetization strategy.</p>
                   <p>In many cases, a freemium model includes "microtransactions", which are smaller, incremental purchases made within the game. This can look like spending $0.99 for an extra life or $4.99 for a stash of in-game currency. Most games that employ a freemium model also use multiple monetization strategies. One such strategy is called a "loot box", an in-game box that can be purchased either for real world money or in-game currency, and includes a randomized item or set of items. Sometimes, these items have in-game benefits, such as new characters or weapons, or they can be cosmetic, such as new character outfits or emotes. </p>
-                  <p>Every video game is different, which means the game's loot box mechanics can come in many different forms. In Entertainment Arts' &lsquo;Star Wars: Battlefront II', for example, there were four types of loot boxes that contained different kinds of rewards, all called "crates" in the game.</p>
+                  <p>Every video game is different, which means the game's loot box mechanics can come in many different forms. In Entertainment Arts' 'Star Wars: Battlefront II', for example, there were four types of loot boxes that contained different kinds of rewards, all called "crates" in the game.</p>
                   <p>Three of the four crates could be purchased using two in-game currencies — either credits or crystals. Credits were earned by playing the game or from the daily free loot box, which had lower odds of receiving high value items. The other type of in-game currency, crystals, could be purchased using real world money.</p>
                   <p>The crates would often give the various playable characters new abilities or increased power in the form of "cards" and ranged in rarity between common, uncommon, and rare. As a player, you would have an advantage if you could gain more cards by opening more crates.</p>
                   <p>The most expensive type of crate was the Trooper crate, which cost players 4,000 credits or 200 crystals. You could earn credits by playing a round or two, which would likely generate the credits necessary to purchase a crate. Or, for $4.99, you could buy 500 crystals and open your crates immediately.</p>
                   <p>Whether the crates contained helpful items was a the gamble. Crates could contain cards you already have, duplicates. Or it could contain crafting points, used to "craft" other buffs, or even more credits. The best luck would be to unlock unlock popular characters in the Star Wars franchise, such as Luke Skywalker or Darth Vader, through a crate.</p>
                   <p>After opening the free daily box, you may receive common cards, increasing the maximum health of a Storm Trooper and gaining back some credits. You play another round — with the credits you accrue, you could maybe open another crate.</p>
                   <p>With no strong cards, you enter the round at a disadvantage. Opponents with more cards gain new abilities, making them harder to fight. Another player uses Luke Skywalker to trounce your Storm Trooper, and Luke's 1100 health allows your opponent to live much longer than your measly 150. To stay competitive, you need more cards or stronger characters, but you would need more credits to open more crates to get more cards and crafting points. Or you could spend real world money to open the crates immediately.</p>
-                  <p>Players were outraged over these loot box mechanics, some calling the game's system "pay-to-win," and criticism quickly spread online. This controversy coincided with the 2018 publication of a groundbreaking research paper showing a psychological link between<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0206767">spending on loot boxes and problem gambling</a>.</p>
+                  <p>Players were outraged over these loot box mechanics, some calling the game's system "pay-to-win," and criticism quickly spread online. This controversy coincided with the 2018 publication of a groundbreaking research paper showing a psychological link between <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0206767">spending on loot boxes and problem gambling</a>.</p>
                   <p>The public anger anger and new research drew regulatory attention to video game monetization. That year, Sen. Josh Hawley (R-Missouri) introduced legislation to ban loot boxes and other "pay-to-win microtransactions" in games targeted towards children. Similar laws were introduced at the state level in Hawaii and Washington. Even though none of this legislation advanced, conversations about how to regulate loot boxes continue.</p>
                   <p>The Federal Trade Commission has taken on the topic of video game monetization, and in 2019, hosted a public workshop on loot boxes through a consumer protection lens. In 2012, the commission hosted another workshop and published a 48-page staff report on digital dark patterns. The report defines "digital dark patterns" as online design practices that may confuse or manipulate consumers into giving businesses their money or data.</p>
                   <p>On these grounds, the FTC alleged that Epic Games, creators of the popular video game &lsquo;Fortnite', violated consumer protection and children's privacy laws by using digital dark patterns in the game's store. The FTC reached a settlement with Epic Games on December 19, 2022, for $275 million. One of these alleged design patterns is that the store's design within &lsquo;Fortnite' led to millions of dollars in unauthorized card charges. The game's payment system was set up to save a default credit card to the account, and there is no step to authorize the card before a purchase is made. Many of the game's 400 million players are children, who were able to spend money using their parents' default saved credit card without their parents' authorization.</p>
@@ -283,7 +277,7 @@
                   <h2>SUBHEAD 1</h2>
                   <p>In the 1990's, around when at-home video game consoles began booming, parents became increasingly concerned about the content within video games, not how games made money. TA handful of games, including Midway Manufacturing's 1992 &lsquo;Mortal Kombat', had parents worried that their children were being shown violent or sexual content through video games. This anger climbed its way to the Senate Governmental Affairs and Judiciary Subcommittees, chaired by Senators Herbert Kohl and Joe Liebermann, who held a series of hearings in 1993 and 1994 to address violence in video games. The ESRB was formed through those hearings and, following the board's formation, the US government declined to regulate video game content.</p>
                   <p>The board also spearheads the International Age Rating Coalition, or IARC, which is a streamlined rating process for mobile games launched in 2013. Mobile gaming is the fastest growing sector of gaming, compared to PC and console, with more players, more games being released, and more player spending.</p>
-                  <p>While content has historically been the target of outrage against video games, in 2018, new research released, showing the link between problem gambling. Many popular video games at the time included a loot box mechanic, such as Blizzard's multiplayer first-person shooter "Overwatch," and discussion forums on these games often featured player frustrations at these mechanics. That frustration boiled into rage upon the release of EA's &lsquo;Star Wars: Battlefront II.'</p>
+                  <p>While content has historically been the target of outrage against video games, in 2018, new research released, showing the link between problem gambling. Many popular video games at the time included a loot box mechanic, such as Blizzard's multiplayer first-person shooter "Overwatch," and discussion forums on these games often featured player frustrations at these mechanics. That frustration boiled into rage upon the release of EA's 'Star Wars: Battlefront II.'</p>
                   <p>To this day, the most downvoted thread on popular discussion forum Reddit is a post about the game's loot box mechanic, making the game and surrounding loot box controversy infamous.Online advocacy groups denounced loot boxes, with children's online safety group Common Sense Media joining the 2019 FTCworkshop on loot boxes.</p>
                   <p>The National Council on Problem Gambling also weighed in with a statement from Executive Director Keith Whyte, urging industry players such as game companies and coalitions take a "constructive role by utilizing their data, design expertise and innovative technology to develop solutions and partnerships." Whyte joined the 2019 FTC workshop on loot boxes as well, where he expanded on his statement, emphasizing the need for commitment from video game companies and associations on enforcing anti-addiction measures and practices.</p>
                   <p>In response to the outrage against loot boxes, members of the Electronic Software Association, a coalition of large console and video game producers, pledged to disclose probabilities for loot boxes and similar randomized mechanics in their games. In 2020, the ESRB began applying the label "In-Game Purchases (Includes Random Items)" as an Interactive Element to games that featured loot box-like monetization systems, alongside the "In-Game Purchases" tagline.</p>
@@ -311,7 +305,7 @@
                   <h2>SUBHEAD 2</h2>
                   <p>Currently, there are no laws in the US specific to video game monetization. As the ESRB is the only recognized industry self-regulatory organization in the US and its target audience is parents, there are no organizations watching the industry on behalf of players.</p>
                   <p>Most nations do not specifically regulate video games, fewer for loot boxes or monetization. Those that do regulate loot boxes typically do so under the pretenses that loot boxes are paid gambling. This means nations with strict gambling restrictions or gambling bans would then also ban paid loot box systems — which is what happened in Belgium.</p>
-                  <p>The Belgian Gaming Commission, the nation's gambling regulatory body, recommended a ban on loot boxes in 2018. Even after this ban, however, 82% of the 100 top grossing iPhone games in Belgium still had loot box mechanics, according to<a href="https://online.ucpress.edu/collabra/article/9/1/57641/195100/Breaking-Ban-Belgium-s-Ineffective-Gambling-Law">a 2021 research paper</a> spearheaded by IT University of Copenhagen Ph.D. fellow Leon Y. Xiao.</p>
+                  <p>The Belgian Gaming Commission, the nation's gambling regulatory body, recommended a ban on loot boxes in 2018. Even after this ban, however, 82% of the 100 top grossing iPhone games in Belgium still had loot box mechanics, according to <a href="https://online.ucpress.edu/collabra/article/9/1/57641/195100/Breaking-Ban-Belgium-s-Ineffective-Gambling-Law">a 2021 research paper</a> spearheaded by IT University of Copenhagen Ph.D. fellow Leon Y. Xiao.</p>
                   <p>The paper found that the ban lacked proper enforcement and suggested Belgium "re-evaluate its current regulatory position: either enforce the law as promised or repeal this in-name-only "ban' and pursue alternative regulatory options." Following the paper's publication, Belgian Minister of Justice Vincent Van Quickenborne responded to a Belgian outlet's question about the study and acknowledged that enforcing the ban was difficult, as there weren't enough resources to ensure compliance from all video game developers, especially smaller studios. Xiao agreed that with smaller companies, "there's nothing you can do."</p>
                   <p>Another type of loot box law exists in China, where video game companies have been required to disclose the probabilities of their loot box mechanics since 2017. Probability disclosures have been a common accommodation by video game developers, with many large US developers now including probability disclosures, following the ESA members' 2018 decision to self-regulate.</p>
                   <p>Still, in 2021, researchers found that these disclosures were being displayed irregularly across the 100 top grossing iPhone games in China. Out of the 91 games that included loot boxes, 21 only displayed probabilities in-game, 35 only displayed probabilities on the game's official website and 31 displayed probabilities both in-game and online. Four games did not display probabilities at all.</p>
@@ -322,7 +316,7 @@
                   <p>While public player opinions on loot boxes tend to skew negative, Psychologist Dr. Natalie Coyle also highlighted that the popularity of this content and the revenue generated by loot boxes shows some players enjoy the mechanic.Coyle writes an article series titled "Psychology and Video Games," lookingat topics relating to mental health and video games. She has written a few articles on loot boxes, exploring the psychology behind loot boxes and links between gambling and gaming addiction, using published research.</p>
                   <p>Similarly, Concordia University Ph.D. candidate Andrei Zanescu pointed out that much of the discourse around loot boxes has been through the lens of gambling addiction, which misses an important part of the boxes. Zanescu is currently working on multiple projects relating to gaming, including research on how monetization in mobile gaming has morphed over time.</p>
                   <p>He also added that if the goal is to have government intervention, then regulators need to "consider that old definitions of gambling might not be sufficient to consider what's happening now."</p>
-                  <p>Loot boxesVideo games are different because the monetization system is attached to a gaming entertainment experience. </p>
+                  <p>Loot boxes are different because the monetization system is attached to a gaming entertainment experience. </p>
                   <p>Zanescu said it's difficult to "thread the needle" but that players each have different responses to different mechanics, which warrants a nuanced approach to regulation.</p>
                   <p>Xiao also said loot boxes and video game monetization strategies should be regulated as video games — not using existing frameworks set up to regulate gambling.</p>
                   <p>"What we probably need to be doing is producing much more open ended frameworks that can be modulated and applied quickly," Zanescu said.</p>
