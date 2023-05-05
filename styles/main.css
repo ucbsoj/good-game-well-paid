@@ -338,10 +338,33 @@ header {
     text-align: center;
 }
 
-#thisisalootbox {
-    height: 53vh;
+#slide7img {
+    width: 100%;
 }
 
+#thisisalootbox {
+    height: 50vh;
+}
+
+.progress {
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #020300;
+}
+
+.progress-container {
+    width: 100%;
+    height: 10px;
+    background: #1E1F20;
+}
+
+.progress-bar {
+    height: 10px;
+    background: #B53D48;
+    width: 0%;
+}
 
 p {
     font-size: 0.9rem;
@@ -363,13 +386,27 @@ a:hover {
     width: 100vw;
 }
 
-/* .lootboxbox {
-
-} */
-
 .lootboximg {
-    width: 100vw;
+    width: 100%;
+    text-align: center;
 }
+
+
+
+/* end main styling
+
+begin footer styling */
+
+footer {
+    width: 100vw;
+    border-top:#F4F5F5 solid 2px;
+}
+
+#footerbox {
+    width: 80vw;
+}
+
+
 
 @media screen and (min-width:768px) {
     #subtitle {
@@ -542,13 +579,43 @@ a:hover {
 
     #slide5img {
         width: 100%;
-        margin-top: 8%;
-        margin-left: 46%;
+        margin-top: 12%;
+        margin-left: 48%;
     }
     
     #gamermoney {
-        height: 40vh;
+        height: 34vh;
     }
 
+    #slide6img {
+        width: 100%;
+    }
 
+    #gamermoneybag {
+        height: 55vh;
+        margin-right: 45%;
+    }
+
+    #slide7img {
+        width: 100%;
+    }
+
+    #thisisalootbox {
+        height: 52vh;
+        margin-right: 45%;
+    }
+
+    .lootbox {
+        margin-top: 10%;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .lootboxbox {
+        width: 30vw;
+    }
+
+    .lootboximg {
+        width: 100%;
+    }
 }
