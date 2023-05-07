@@ -1,422 +1,379 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Good Game, Well Paid</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Good Game, Well Paid</title>
 
-        <!-- links -->
-        <link rel="stylesheet" type="text/css" href="./styles/main.css">
-        <link rel="stylesheet" type="text/css" href="./styles/bootstrap-grid.css">
-        <!-- commented out simple grid because i'm going to try the bootstrap gridding-->
-        <!-- <link rel="stylesheet" type="text/css" href="./styles/simple-grid.css"> -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+      <!-- links -->
+      <link rel="stylesheet" type="text/css" href="./styles/main.css">
+      <link rel="stylesheet" type="text/css" href="./styles/bootstrap-grid.css">
+      <!-- commented out simple grid because i'm going to try the bootstrap gridding-->
+      <!-- <link rel="stylesheet" type="text/css" href="./styles/simple-grid.css"> -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
 
-        <!-- scroll counter styling -->
-        <style>
-          
-          #scroll-counter{
-            position:fixed;
-            top:0;
-            left:0;
-            color: red;
-            z-index: 1000;
-            background-color: #333;
-          }
-          
-        </style>
+      <!-- scroll counter styling -->
+      <style>
+        
+        #scroll-counter{
+          position:fixed;
+          top:0;
+          left:0;
+          color: red;
+          z-index: 1000;
+          background-color: #333;
+        }
+        
+      </style>
 
-    </head>
-    <body>
-      
-      <div id="scroll-counter">0</div>
-        <header>
-            <!-- this seems like a good spot for the landing page :D -->
-            <div class="container landingtext">
-                <div class="row">
-                  <div class="offset-md-4 col-md-6 col-11" id="title">
-                    <img src="./assets/manual title.png"  alt=" Good Game, Well Paid" class="img-fluid">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="offset-md-2 col-11 col-md-8">
-                    <p id="subtitle">Video game regulations is like the Wild West. Few rules and lots of gambling.</p>
-                  </div>
-                </div>
+  </head>
+  <body>
+    
+    <div id="scroll-counter">0</div>
+      <header>
+          <!-- this seems like a good spot for the landing page :D -->
+          <div class="container landingtext">
               <div class="row">
-                <div class="offset-md-4 offset-1 col-md-6 col-10">
-                  <a href="#carouselanchor">
-                    <div id="startbuttonbox">
-                      <img src="./assets/start button.png" alt="Click here to Start" class="img-fluid" id="startbuttontext">
-                    </div>
-                  </a>
+                <div class="offset-md-4 col-md-6 col-11" id="title">
+                  <img src="./assets/manual title.png"  alt=" Good Game, Well Paid" class="img-fluid">
                 </div>
               </div>
               <div class="row">
-                <div class="offset-md-3 col-md-6 col-11" id="bylinebox">
-                  <img src="./assets/byline.png" alt="Produced by B. Sakura Cannestra" class="img-fluid" id="bylinetext">
+                <div class="offset-md-2 col-11 col-md-8">
+                  <p id="subtitle">Video game regulations is like the Wild West. Few rules and lots of gambling.</p>
                 </div>
+              </div>
+            <div class="row">
+              <div class="offset-md-4 offset-1 col-md-6 col-10">
+                <a href="#slide1anchor">
+                  <div id="startbuttonbox">
+                    <img src="./assets/start button.png" alt="Click here to Start" class="img-fluid" id="startbuttontext">
+                  </div>
+                </a>
               </div>
             </div>
-            <div>
-              <div class="explosion" id="explosion1">
-                <img src="./assets/explosions/explosion 2.gif" alt="Looping gif of green pixelated explosion" class="img-fluid">
-              </div>
-              <div class="explosion" id="explosion2">
-                <img src="./assets/explosions/explosion 1.gif" alt="Looping gif of yellow pixelated explosion" class="img-fluid">
-              </div>
-              <div class="explosion" id="explosion3">
-                <img src="./assets/explosions/explosion 3.gif" alt="Looping gif of blue pixelated explosion" class="img-fluid">
-              </div>
-              <div class="explosion" id="explosion4">
-                <img src="./assets/explosions/explosion 2 flip.gif" alt="Looping gif of green pixelated explosion" class="img-fluid">
-              </div>
-              <div class="explosion" id="explosion5">
-                <img src="./assets/explosions/explosion 3 flip.gif" alt="Looping gif of blue pixelated explosion" class="img-fluid">
-              </div>
-              <div class="explosion" id="sparkle1">
-                <img src="./assets/explosions/sparkle 1.gif" alt="More red sparkles" class="img-fluid">
-              </div>
-              <div class="explosion" id="sparkle2">
-                <img src="./assets/explosions/sparkle 2.gif" alt="More yellow sparkles" class="img-fluid">
-              </div>
-              <div id="widesparkles">
-                <div class="explosion" id="sparkle3">
-                  <img src="./assets/explosions/sparkle 1.gif" class="img-fluid">
-                </div>
-                <div class="explosion" id="sparkle4">
-                  <img src="./assets/explosions/sparkle 2.gif" class="img-fluid">
-                </div>
-                <div class="explosion" id="sparkle5">
-                  <img src="./assets/explosions/sparkle 2.gif" class="img-fluid">
-                </div>
+            <div class="row">
+              <div class="offset-md-3 col-md-6 col-11" id="bylinebox">
+                <img src="./assets/byline.png" alt="Produced by B. Sakura Cannestra" class="img-fluid" id="bylinetext">
               </div>
             </div>
-        </header>
-        <main>
-          <section class="carousel" id="carouselanchor">
-            <div class="carousel-viewport">
-              <div class="carousel-slide" id="carouselslide-1">
-                <div class="carousel-slide-content">
-                  <div class="introtextbox">
-                    <p class="introtext">1 in every 3 people plays video games regularly.</p>
-                  </div>
-                  <div id="slide1img">
-                    <img src="./assets/default stand.png" alt="Featureless person standing" class="introcharacter">
-                    <img src="./assets/gamer pose.png" alt="A gamer smiling and waving" class="introgamer">
-                    <img src="./assets/default stand.png" alt="Another featureless person standing" class="introcharacter">
-                  </div>
-                  <!-- <div class="background">
-                    <img src="./assets/mountains.png" class="mountains">
-                  </div> -->
-                </div>
-                <div class="snapper-holder">
-                  <div class="carousel-snapper">
-                    <a href="#carouselslide-2" class="carousel-next">
-                      <img src="./assets/carousel button next.png" alt="Go to next slide button" class="carousel-button">
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-slide" id="carouselslide-2">
-                <div class="carousel-slide-content">
-                  <div class="introtextbox">
-                    <p class="introtext">Most play games for entertainment.</p>
-                  </div>
-                  <div id="slide2img">
-                    <img src="./assets/gamer playing.gif" id="playinggif" alt="The gamer plays a handheld console">
-                  </div>
-                </div>
-                <div class="carousel-snapper">
-                  <a href="#carouselslide-1" class="carousel-prev">
-                    <img src="./assets/carousel button prev.png" alt="Go to previous slide button" class="carousel-button">
-                  </a>
-                  <a href="#carouselslide-3" class="carousel-next">
-                    <img src="./assets/carousel button next.png" alt="Go to next slide button" class="carousel-button">
-                  </a>
-                </div>
-              </div>
-              <div class="carousel-slide" id="carouselslide-3">
-                <div class="carousel-slide-content">
-                  <div class="introtextbox">
-                    <p class="introtext">Some use games to connect with others. </p>
-                  </div>
-                  <div id="slide3img">
-                    <img src="./assets/sem running.gif" class="runninggif">
-                    <img src="./assets/cadence running.gif" class="runninggif">
-                    <img src="./assets/gamer running.gif" class="runninggif" alt="The gamer running alongside two friends, a light skinned woman wearing a black sweater and a dark skinned man wearing a pink sweater.">
-                  </div>
-                  <!-- <div class="background">
-                    <img src="./assets/mountains.png" class="mountains">
-                  </div> -->
-                </div>
-                <div class="carousel-snapper">
-                  <a href="#carouselslide-2" class="carousel-prev">
-                    <img src="./assets/carousel button prev.png" alt="Go to previous slide button" class="carousel-button">
-                  </a>
-                  <a href="#carouselslide-4" class="carousel-next">
-                    <img src="./assets/carousel button next.png" alt="Go to next slide button" class="carousel-button">
-                  </a>
-                </div>
-              </div>
-              <div class="carousel-slide" id="carouselslide-4">
-                <div class="carousel-slide-content">
-                  <div class="introtextbox">
-                    <p class="introtext">Some enjoy the challenge and competition. </p>
-                  </div>
-                  <div id="slide4img">
-                    <img src="./assets/finish line.png" id="finishline">
-                    <img src="./assets/gamer celebration.gif" id="celebrationgif">
-                    <img src="./assets/trophy.png" id="trophy" alt="Gamer celebrates getting past the finish line and receives a first-place trophy">
-                  </div>
-                </div>
-                <div class="carousel-snapper">
-                  <a href="#carouselslide-3" class="carousel-prev">
-                    <img src="./assets/carousel button prev.png" alt="Go to previous slide button" class="carousel-button">
-                  </a>
-                  <a href="#carouselslide-5" class="carousel-next">
-                    <img src="./assets/carousel button next.png" alt="Go to next slide button" class="carousel-button">
-                  </a>
-                </div>
-              </div>
-              <div class="carousel-slide" id="carouselslide-5">
-                <div class="carousel-slide-content">
-                  <div class="introtextbox">
-                    <p class="introtext">Many games let you spend money inside the game.</p>
-                  </div>
-                  <div id="slide5img">
-                    <img src="./assets/gamer money stagnant.png" alt="Gamer holding their earnings" id="gamermoney">
-                  </div>
-                </div>
-                <div class="carousel-snapper">
-                  <a href="#carouselslide-4" class="carousel-prev">
-                    <img src="./assets/carousel button prev.png" alt="Go to previous slide button" class="carousel-button">
-                  </a>
-                  <a href="#carouselslide-6" class="carousel-next">
-                    <img src="./assets/carousel button next.png" alt="Go to next slide button" class="carousel-button">
-                  </a>
-                </div>
-              </div>
-              <div class="carousel-slide" id="carouselslide-6">
-                <div class="carousel-slide-content">
-                  <div class="introtextbox">
-                    <p class="introtext">These are microtransactions.</p>
-                  </div>
-                  <div id="slide6img">
-                    <img src="./assets/gamer_moneybags.gif" alt="Gamer holding their money looking at the advertisements poppingup" id="gamermoneybag">
-                  </div>
-                </div>
-                <div class="carousel-snapper">
-                  <a href="#carouselslide-5" class="carousel-prev">
-                    <img src="./assets/carousel button prev.png" alt="Go to previous slide button" class="carousel-button">
-                  </a>
-                  <a href="#carouselslide-7" class="carousel-next">
-                    <img src="./assets/carousel button next.png" alt="Go to next slide button" class="carousel-button">
-                  </a>
-                </div>
-              </div>
-              <div class="carousel-slide" id="carouselslide-7">
-                <div class="carousel-slide-content">
-                  <div class="introtextbox">
-                    <p class="introtext">And this is a loot box.</p>
-                  </div>
-                  <div id="slide7img">
-                    <img src="./assets/this_is_lootbox.gif" alt="The pop-up ads go away and a wooden box drops from above, opening in front of the gamer" id="thisisalootbox">
-                  </div>
-                </div>
-                <div class="carousel-snapper">
-                  <a href="#storycontinue" id="storycontinuebutton">
-                    <img src="./assets/continue.png" alt="Continue to story button" class="img-fluid" id="continuebutton">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- carousel intro maybe? on click? or on scroll? hm -->
-          </section>
-
-            
-            <div class="progress">
-              <div class="progress-container">
-                <div class="progress-bar" id="myBar"></div>
-              </div>
-            </div>
-            
-            <div class="container">
-              <div class="row">
-                <div class="offset-2 offset-xl-1 col-8 col-xl-10" id="storycontinue">
-                  <section>
-                    <p>Suffice to say the video game industry is large, worth more than the film and music industries combined. Revenue is projected to break $400 billion next year, according to market data from Statista. For comparison, the film industry hit $81 billion in 2021, also according to Statista.</p>
-                    <p>The way video games make money has been spotlit by researchers and regulators in recent years. Most console or computer games make money just from people buying the game. An increasing number of games, especially mobile games, are adopting a "freemium" revenue model, where the game itself is available for free, but more content, such as new costumes or characters, exists behind paywalls. The strategies a game uses to make money is also known as its monetization strategy.</p>
-                    <p>In many cases, a freemium model includes "microtransactions", which are smaller, incremental purchases made within the game. This can look like spending $0.99 for an extra life or $4.99 for a stash of in-game currency. Most games that employ a freemium model also use multiple monetization strategies. One such strategy is called a "loot box", an in-game box that can be purchased either for real world money or in-game currency, and includes a randomized item or set of items. Sometimes, these items have in-game benefits, such as new characters or weapons, or they can be cosmetic, such as new character outfits or emotes. </p>
-                    <p>Every video game is different, which means the game's loot box mechanics can come in many different forms. In Entertainment Arts' 'Star Wars: Battlefront II', for example, there were four types of loot boxes that contained different kinds of rewards, all called "crates" in the game.</p>
-                    <p>Three of the four crates could be purchased using two in-game currencies — either credits or crystals. Credits were earned by playing the game or from the daily free loot box, which had lower odds of receiving high value items. The other type of in-game currency, crystals, could be purchased using real world money.</p>
-                    <p>The crates would often give the various playable characters new abilities or increased power in the form of "cards" and ranged in rarity between common, uncommon, and rare. As a player, you would have an advantage if you could gain more cards by opening more crates.</p>
-                    <p>The most expensive type of crate was the Trooper crate, which cost players 4,000 credits or 200 crystals. You could earn credits by playing a round or two, which would likely generate the credits necessary to purchase a crate. Or, for $4.99, you could buy 500 crystals and open your crates immediately.</p>
-                    <p>Whether the crates contained helpful items was a the gamble. Crates could contain cards you already have, duplicates. Or it could contain crafting points, used to "craft" other buffs, or even more credits. The best luck would be to unlock unlock popular characters in the Star Wars franchise, such as Luke Skywalker or Darth Vader, through a crate.</p>
-                    <p>After opening the free daily box, you may receive common cards, increasing the maximum health of a Storm Trooper and gaining back some credits. You play another round — with the credits you accrue, you could maybe open another crate.</p>
-                    <p>With no strong cards, you enter the round at a disadvantage. Opponents with more cards gain new abilities, making them harder to fight. Another player uses Luke Skywalker to trounce your Storm Trooper, and Luke's 1100 health allows your opponent to live much longer than your measly 150. To stay competitive, you need more cards or stronger characters, but you would need more credits to open more crates to get more cards and crafting points. Or you could spend real world money to open the crates immediately.</p>
-                    <p>Players were outraged over these loot box mechanics, some calling the game's system "pay-to-win," and criticism quickly spread online. This controversy coincided with the 2018 publication of a groundbreaking research paper showing a psychological link between <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0206767">spending on loot boxes and problem gambling</a>.</p>
-                    <p>The public anger anger and new research drew regulatory attention to video game monetization. That year, Sen. Josh Hawley (R-Missouri) introduced legislation to ban loot boxes and other "pay-to-win microtransactions" in games targeted towards children. Similar laws were introduced at the state level in Hawaii and Washington. Even though none of this legislation advanced, conversations about how to regulate loot boxes continue.</p>
-                    <p>The Federal Trade Commission has taken on the topic of video game monetization, and in 2019, hosted a public workshop on loot boxes through a consumer protection lens. In 2012, the commission hosted another workshop and published a 48-page staff report on digital dark patterns. The report defines "digital dark patterns" as online design practices that may confuse or manipulate consumers into giving businesses their money or data.</p>
-                    <p>On these grounds, the FTC alleged that Epic Games, creators of the popular video game &lsquo;Fortnite', violated consumer protection and children's privacy laws by using digital dark patterns in the game's store. The FTC reached a settlement with Epic Games on December 19, 2022, for $275 million. One of these alleged design patterns is that the store's design within &lsquo;Fortnite' led to millions of dollars in unauthorized card charges. The game's payment system was set up to save a default credit card to the account, and there is no step to authorize the card before a purchase is made. Many of the game's 400 million players are children, who were able to spend money using their parents' default saved credit card without their parents' authorization.</p>
-                    <p>These actions by the FTC are the most concrete legal precedent set in the US for video game monetization consumer protections. Prior to these actions, most video game regulation was through the Entertainment Software Rating Board, or ESRB, an industry self-regulatory body who provide content descriptions and video game ratings for parents. The ESRB, in 2018, launched the Interactive Elements tagline in 2018, so parents and consumers would know when a game has certain mechanics, including "In-Game Purchases."</p>
-                    <p>Other nations and regulatory bodies have also been examining video game monetization and applying laws ranging from disclosures to outright bans. Since 2017, China has required games with loot boxes disclose the probability of obtaining the items within the boxes. In Belgium, loot boxes were ruled illegal under the nation's existing gambling laws. The United Kingdom recently decided not to legislate loot boxes under the nation's gambling laws, but has called for more research and industry self-regulation.</p>
-                    <p>One look online shows many players dislike loot box mechanics, though the popularity of loot box-based video game content and the revenue generated by this mechanic show that many players engage with it. And while loot boxes have generated a wave of disapproval, they're far from the only unregulated monetization strategy.</p>
-                  </section>
-                </div>
-              </div>
-            </div>
-            <div class="lootbox step" id="funbox1">
-              <div class="lootboxbox">
-                <img src="./assets/funfactboxes/funfact-box-1.gif" class="lootboximg" id="funfactbox1" alt="A loot box dropped from above, containing a fun fact. The fact reads as follows: This story's definition of loot box will include most gacha games, but even for experts, defining these terms is hard.">
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="offset-2 offset-md-3 col-8 col-md-6">
-                  <section>
-                    <h2>SUBHEAD 1</h2>
-                    <p>In the 1990's, around when at-home video game consoles began booming, parents became increasingly concerned about the content within video games, not how games made money. TA handful of games, including Midway Manufacturing's 1992 &lsquo;Mortal Kombat', had parents worried that their children were being shown violent or sexual content through video games. This anger climbed its way to the Senate Governmental Affairs and Judiciary Subcommittees, chaired by Senators Herbert Kohl and Joe Liebermann, who held a series of hearings in 1993 and 1994 to address violence in video games. The ESRB was formed through those hearings and, following the board's formation, the US government declined to regulate video game content.</p>
-                    <p>The board also spearheads the International Age Rating Coalition, or IARC, which is a streamlined rating process for mobile games launched in 2013. Mobile gaming is the fastest growing sector of gaming, compared to PC and console, with more players, more games being released, and more player spending.</p>
-                    <p>While content has historically been the target of outrage against video games, in 2018, new research released, showing the link between problem gambling. Many popular video games at the time included a loot box mechanic, such as Blizzard's multiplayer first-person shooter "Overwatch," and discussion forums on these games often featured player frustrations at these mechanics. That frustration boiled into rage upon the release of EA's 'Star Wars: Battlefront II.'</p>
-                    <p>To this day, the most downvoted thread on popular discussion forum Reddit is a post about the game's loot box mechanic, making the game and surrounding loot box controversy infamous.Online advocacy groups denounced loot boxes, with children's online safety group Common Sense Media joining the 2019 FTCworkshop on loot boxes.</p>
-                    <p>The National Council on Problem Gambling also weighed in with a statement from Executive Director Keith Whyte, urging industry players such as game companies and coalitions take a "constructive role by utilizing their data, design expertise and innovative technology to develop solutions and partnerships." Whyte joined the 2019 FTC workshop on loot boxes as well, where he expanded on his statement, emphasizing the need for commitment from video game companies and associations on enforcing anti-addiction measures and practices.</p>
-                    <p>In response to the outrage against loot boxes, members of the Electronic Software Association, a coalition of large console and video game producers, pledged to disclose probabilities for loot boxes and similar randomized mechanics in their games. In 2020, the ESRB began applying the label "In-Game Purchases (Includes Random Items)" as an Interactive Element to games that featured loot box-like monetization systems, alongside the "In-Game Purchases" tagline.</p>
-                    <p>These are separate from the various Content Descriptors that the board uses to rate video games, though there are three descriptors about gambling — "Simulated Gambling," "Real Gambling" and "Gambling Themes." ESRB spokesperson Max Jay confirmed in an email that Interactive Elements do not impact a game's rating. However, Jay confirmed that games that warranted the "Real Gambling" descriptor would be rated for Adults Only.</p>
-                    <p>The ESRB outreaches to parents on topics related to video games, including loot boxes.. According to Jay, however, internal ESRB data shows that parents are more interested in topics such as time spent gaming or online communication, rather than in-game purchases. Jay stressed that the ESRB's target audience is parents and caregivers, so the board's work is tailored to inform and reach parents.</p>
-                    <p>Whyte had suggested a partnership between the NCPG and the ESRB to engage consumers about loot box gambling addiction while at the 2019 FTC workshop. In an interview, he said the NCPG has seen an increase in people who attend Gamblers Anonymous meetings citing video games as their entry to gambling.</p>
-                    <p>Since then, the council has taken a step back from loot boxes — according to Whyte, the ESRB seemed uninterested in a partnership. Jay said in an email that while the NCPG did suggest a partnership during and right after the workshop, but there were no concrete plans at the time.</p>
-                    <p>He also said in an email that loot boxes are not classified as gambling in the US and "conflating them would be confusing to consumers."</p>
-                    <p>While there is no legal definition of loot boxes in the US, Whyte said the video game industry has the responsibility to reduce harm to users because there is proof of a link between loot boxes and harm.</p>
-                    <p>"Our concerns challenge their whole current monetization model," Whyte said. "I think they're not going to try and address concerns about monetization in gaming until they're forced to, quite frankly."</p>
-                  </section>
-                </div>
-              </div>
-            </div>
-            <div class="lootbox" id="funbox2">
-              <div class="lootboxbox">
-                <!-- the image goes here for lootbox #2 -->
-                <img src="./assets/funfactboxes/funfact-box-1.gif" class="lootboximg" id="funfactbox2" alt="A loot box dropped from above, containing a fun fact. The fact reads as follows: ">
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="offset-2 offset-md-3 col-8 col-md-6">
-                  <section>
-                    <h2>SUBHEAD 2</h2>
-                    <p>Currently, there are no laws in the US specific to video game monetization. As the ESRB is the only recognized industry self-regulatory organization in the US and its target audience is parents, there are no organizations watching the industry on behalf of players.</p>
-                    <p>Most nations do not specifically regulate video games, fewer for loot boxes or monetization. Those that do regulate loot boxes typically do so under the pretenses that loot boxes are paid gambling. This means nations with strict gambling restrictions or gambling bans would then also ban paid loot box systems — which is what happened in Belgium.</p>
-                    <p>The Belgian Gaming Commission, the nation's gambling regulatory body, recommended a ban on loot boxes in 2018. Even after this ban, however, 82% of the 100 top grossing iPhone games in Belgium still had loot box mechanics, according to <a href="https://online.ucpress.edu/collabra/article/9/1/57641/195100/Breaking-Ban-Belgium-s-Ineffective-Gambling-Law">a 2021 research paper</a> spearheaded by IT University of Copenhagen Ph.D. fellow Leon Y. Xiao.</p>
-                    <p>The paper found that the ban lacked proper enforcement and suggested Belgium "re-evaluate its current regulatory position: either enforce the law as promised or repeal this in-name-only "ban' and pursue alternative regulatory options." Following the paper's publication, Belgian Minister of Justice Vincent Van Quickenborne responded to a Belgian outlet's question about the study and acknowledged that enforcing the ban was difficult, as there weren't enough resources to ensure compliance from all video game developers, especially smaller studios. Xiao agreed that with smaller companies, "there's nothing you can do."</p>
-                    <p>Another type of loot box law exists in China, where video game companies have been required to disclose the probabilities of their loot box mechanics since 2017. Probability disclosures have been a common accommodation by video game developers, with many large US developers now including probability disclosures, following the ESA members' 2018 decision to self-regulate.</p>
-                    <p>Still, in 2021, researchers found that these disclosures were being displayed irregularly across the 100 top grossing iPhone games in China. Out of the 91 games that included loot boxes, 21 only displayed probabilities in-game, 35 only displayed probabilities on the game's official website and 31 displayed probabilities both in-game and online. Four games did not display probabilities at all.</p>
-                    <p>To Xiao, it's unclear how effective loot box regulation would work, because no existing regulation has been effective. Even probability disclosures are a matter of "let's provide it anyway just to be safe.'"</p>
-                    <p>"It's difficult also to just define exactly what you want to regulate even when you're drafting that piece of legislation," Xiao said.</p>
-                    <p>As government around the world craft ways to regulate loot boxes, Xiao acknowledged that research on loot boxes is still in its infancy, including research on player opinions.</p>
-                    <p>Despite loot boxes' negative reputation, many video game content creators on platforms such as Youtube or Twitch create content focused on opening loot boxes. These videos can garner millions of views on Youtube and thousands of live viewers on Twitch, especially when the video game is incredibly popular, as is the case with miHoYo's &lsquo;Genshin Impact.'</p>
-                    <p>While public player opinions on loot boxes tend to skew negative, Psychologist Dr. Natalie Coyle also highlighted that the popularity of this content and the revenue generated by loot boxes shows some players enjoy the mechanic.Coyle writes an article series titled "Psychology and Video Games," lookingat topics relating to mental health and video games. She has written a few articles on loot boxes, exploring the psychology behind loot boxes and links between gambling and gaming addiction, using published research.</p>
-                    <p>Similarly, Concordia University Ph.D. candidate Andrei Zanescu pointed out that much of the discourse around loot boxes has been through the lens of gambling addiction, which misses an important part of the boxes. Zanescu is currently working on multiple projects relating to gaming, including research on how monetization in mobile gaming has morphed over time.</p>
-                    <p>He also added that if the goal is to have government intervention, then regulators need to "consider that old definitions of gambling might not be sufficient to consider what's happening now."</p>
-                    <p>Loot boxes are different because the monetization system is attached to a gaming entertainment experience. </p>
-                    <p>Zanescu said it's difficult to "thread the needle" but that players each have different responses to different mechanics, which warrants a nuanced approach to regulation.</p>
-                    <p>Xiao also said loot boxes and video game monetization strategies should be regulated as video games — not using existing frameworks set up to regulate gambling.</p>
-                    <p>"What we probably need to be doing is producing much more open ended frameworks that can be modulated and applied quickly," Zanescu said.</p>
-                    <p>Xiao, Coyle and Zanescu all also stressed that academic research on the impacts of video games is in its infancy, and there are many areas in gaming that need more research.</p>
-                    <p>One such area is gacha gaming. A "gacha game" is a genre of video games that includes a loot box mechanic as part of its core gameplay loop. The name "gacha" comes from Japanese"gachapon"machines, where a coin is put into a machine in order to receive a random prize.</p>
-                    <p>Mayor is a relative expert on gacha games. He has been a moderator of r/gachagaming, a discussion board on Reddit dedicated to gacha games, for about two years and has seen the community discuss addiction and regulation regularly. He has requested to remain anonymous to keep his real life identity from reaching members of the subreddit who disagree with his moderation decisions.</p>
-                    <p>"From my experience combing through thousands of posts from people about what they want and don't want, it would be very hard to find someone who opposes legislated pity systems on lootboxes. But it would be even harder to find someone who wants their government to prohibit certain types of games based on the content," Mayor said in a message.</p>
-                    <p>The "pity system" that Mayor mentioned is common in many gacha games. This is a built-in guarantee that the player will obtain the rare or limited-time item after having opened enough boxes (or, as they say in the gacha gaming community, "pull enough times").</p>
-                    <p>Similar to Zanescu, Mayor disagrees with the notion that loot boxes are automatically related to addiction, though for a slightly different reason. Addiction to the video game itself is much more common, according to Mayor.</p>
-                    <p>"A player who pays no money at all can be much more addicted to a gacha game than one who pays thousands. It's the player who can't say no to the game," Mayor wrote in a message.</p>
-                  </section>
-                </div>
-              </div>
-            </div>
-            <div class="lootbox" id="funbox3">
-              <div class="lootboxbox">
-                <!-- the image goes here for lootbox #3 -->
-                <img src="./assets/funfactboxes/funfact-box-1.gif" class="lootboximg" id="funfactbox2" alt="A loot box dropped from above, containing a fun fact. The fact reads as follows: ">
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="offset-2 offset-md-3 col-8 col-md-6">
-                  <section>
-                    <h2>SUBHEAD 3</h2>
-                    <p>The industry has been moving toward more diverse monetization schemes since 2018. Loot boxes are far from the only video game monetization strategy. There are limited time events and "battle passes," an in-game rewards system where players purchase a "pass" that allows them to gain new cosmetics or upgrades the more they play the game over a set amount of time.</p>
-                    <p>Coyle has also seen this trend while engaging in video game community spaces, including how she's seen some posts online asking for games to bring loot boxes back rather than battle passes, in relation to "Overwatch 2," developed by Blizzard. 'Overwatch 2' released in October last year, featuring the battle pass mechanic in place of the first game's loot box system. Player feedback online about this change has been vastly negative, as the pass required consistent and high playtime to unlock all the pass' offerings within the time limit. If a player doesn't unlock their battle pass rewards in that time, they have to purchase it again.</p>
-                    <p>Coyle likened the effect to a player's money "expiring."</p>
-                    <p>"You can pay money and you haven't got enough content out of it so that the idea of it expires. Your money in the video game has expired," she said.</p>
-                    <p>The overlapping and broader impact of monetization on players is the focus for University of York PhD researcher Elena Petrovskaya, whose research includes an interview-based study on 14 adult mobile gamers. While children are vulnerable, Petrovskaya said she wants to explore how spending on video games can impact adult video game players' lives, as most past conversation on video game monetization has been dominated by loot boxes and that these victims are often characterized as children</p>
-                    <p>Many children's advocacy organizations have continued calling for loot boxes to be regulated. Most recently, 14 organizations signed and sent a letter to the FTC in June of last year, calling for the commission to investigate the loot box mechanic in popular sports game 'FIFA '23: Ultimate Team', developed by EA. Children's online safety group Fairplay spearheaded the campaign, and Haley Hinkle, Fairplay's policy counsel, said the letter was inspired by a report from the Norwegian Consumer Council that discussed how loot boxes impact children and teens. According to Hinkle, the report made clear that the monetization strategy in&lsquo;FIFA &lsquo;23: Ultimate Team'was harming child players.</p>
-                    <p>"We didn't necessarily write about it, but I think we were very aware that video game consumers seem just as frustrated with these practices as anyone," Hinkle said. "When you take into account what we know developmentally about young people and the fact that they want to be playing the version that has the card packs, &hellip; this is something that kids and teens are definitely facing"</p>
-                    <p>After having worked with many players through her research, Petrovskaya said she approaches video game monetization with a "negative perspective."</p>
-                    <p>The 2022 FTC settlement with Epic Games presents a new tactic to address video game monetization from a consumer protection lens using the 2021 workshop and report on "digital dark patterns." Hinkle said her team was "excited" to see the settlement, as it was a step toward the commission using their unfairness authorities as well as authorities the Children's Online Privacy Protection Act.</p>
-                    <p>Petrovskaya agreed that this enforcement under dark patterns is a positive step in understanding how to regulate video game monetization, serving as an acknowledgement that video games, including games as popular as 'Fortnite', have potentially manipulative designs. Other video games with dark patterns could be identified through enforcement and, as Petrovskaya said, "after several of those cases, you start to think this is a pattern."</p>
-                    <p>"Some games are just designed for, you know, player spending, player like excessive play, get people really hooked on these games until they're almost forced to spend money. I have a very strong belief that that is genuinely the case in a lot of games," Petrovskaya said.</p>                  
-                  </section>
-                </div>
-              </div>
-            </div>
-        </main>
-        <footer>
-          <div id="footerbox">
-            <p>Article, Art and Custom Web Design by B. Sakura Cannestra.</p>
-            <p>Advised by Richard Koci Hernandez.</p>
-            <p>This story was produced at the UC Berkeley Graduate School of Journalism, 2022-23.</p>
-            <p>Special thank you to Richard Koci Hernandez, Geeta Anand, Mike Hume, Jeremy Rue, Kira Turetzky, the UC Berkeley Graduate School of Journalism 2023 Multimedia Cohort, and everyone else who supported me along this journey.</p>
           </div>
-        </footer>
-      <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-      <script src="https://unpkg.com/scrollama"></script>
-      <script src="styles/main.js"></script>
-      <script>
-        
-        $("a[href='#carouselslide-6']").on("click", function(){
-          
-          $("#gamermoneybag").attr("src", "http://placekitten.com/200/300");
-          
-        });
-        
-        
-        /*
-        
-        if you want to record the number of pixels of an object, use offset().top
-        
-        const variableName = $("#someitem).offset().top
-        
-        If you want to record the number of pixels you scrolled down
-        
-        $(document).scrollTop()
-        
-        If you want to get the size of the window (viewport)
-        
-        $(window).height()
-        
-        
-        
-        
-        */
-        
-        
-        
-        const lootbox1 = $("#funfactbox1").offset().top;
-        
-        $(window).on("scroll", function(){
-          
-          $("#scroll-counter").text(Math.round($(document).scrollTop()));
-          
-        
-          if( $(document).scrollTop() > lootbox1){
-            
-            $("#funfactbox1").attr("src", "http://placekitten.com/200/300");
-            
-          }
-          
-        });
-
-      </script>
-    </body>
+          <div>
+            <div class="explosion" id="explosion1">
+              <img src="./assets/explosions/explosion 2.gif" alt="Looping gif of green pixelated explosion" class="img-fluid">
+            </div>
+            <div class="explosion" id="explosion2">
+              <img src="./assets/explosions/explosion 1.gif" alt="Looping gif of yellow pixelated explosion" class="img-fluid">
+            </div>
+            <div class="explosion" id="explosion3">
+              <img src="./assets/explosions/explosion 3.gif" alt="Looping gif of blue pixelated explosion" class="img-fluid">
+            </div>
+            <div class="explosion" id="explosion4">
+              <img src="./assets/explosions/explosion 2 flip.gif" alt="Looping gif of green pixelated explosion" class="img-fluid">
+            </div>
+            <div class="explosion" id="explosion5">
+              <img src="./assets/explosions/explosion 3 flip.gif" alt="Looping gif of blue pixelated explosion" class="img-fluid">
+            </div>
+            <div class="explosion" id="sparkle1">
+              <img src="./assets/explosions/sparkle 1.gif" alt="More red sparkles" class="img-fluid">
+            </div>
+            <div class="explosion" id="sparkle2">
+              <img src="./assets/explosions/sparkle 2.gif" alt="More yellow sparkles" class="img-fluid">
+            </div>
+            <div id="widesparkles">
+              <div class="explosion" id="sparkle3">
+                <img src="./assets/explosions/sparkle 1.gif" class="img-fluid">
+              </div>
+              <div class="explosion" id="sparkle4">
+                <img src="./assets/explosions/sparkle 2.gif" class="img-fluid">
+              </div>
+              <div class="explosion" id="sparkle5">
+                <img src="./assets/explosions/sparkle 2.gif" class="img-fluid">
+              </div>
+            </div>
+          </div>
+      </header>
+      <main>
+        <section class="carousel">
+          <div class="carousel-viewport">
+            <div class="carousel-slide" id="carouselslide-1">
+              <div class="carousel-slide-content" id="slide1anchor">
+                <div class="introtextbox">
+                  <p class="introtext">1 in every 3 people plays video games regularly.</p>
+                </div>
+                <div id="slide1img">
+                  <img src="./assets/carouselimg/slide1default.png" alt="Featureless person standing" class="introcharacter">
+                  <img src="./assets/carouselimg/slide1gamer.png" alt="A gamer smiling and waving" class="introgamer">
+                  <img src="./assets/carouselimg/slide1default.png" alt="Another featureless person standing" class="introcharacter">
+                </div>
+                <!-- <div class="background">
+                  <img src="./assets/mountains.png" class="mountains">
+                </div> -->
+              </div>
+              <div class="snapper-holder">
+                <div class="carousel-snapper">
+                  <a href="#carouselslide-2" class="carousel-next">
+                    <img src="./assets/carousel button next.png" alt="Go to next slide button" class="carousel-button">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-slide" id="carouselslide-2">
+              <div class="carousel-slide-content">
+                <div class="introtextbox">
+                  <p class="introtext">Most play games for entertainment.</p>
+                </div>
+                <div id="slide2img">
+                  <img src="./assets/carouselimg/slide2gamer.gif" id="playinggif" alt="The gamer plays a handheld console">
+                </div>
+              </div>
+              <div class="carousel-snapper">
+                <a href="#carouselslide-1" class="carousel-prev">
+                  <img src="./assets/carousel button prev.png" alt="Go to previous slide button" class="carousel-button">
+                </a>
+                <a href="#carouselslide-3" class="carousel-next">
+                  <img src="./assets/carousel button next.png" alt="Go to next slide button" class="carousel-button">
+                </a>
+              </div>
+            </div>
+            <div class="carousel-slide" id="carouselslide-3">
+              <div class="carousel-slide-content">
+                <div class="introtextbox">
+                  <p class="introtext">Some use games to connect with others. </p>
+                </div>
+                <div id="slide3img">
+                  <img src="./assets/carouselimg/slide3sem.gif" class="runninggif">
+                  <img src="./assets/carouselimg/slide3cadence.gif" class="runninggif">
+                  <img src="./assets/carouselimg/slide3gamer.gif" class="runninggif" alt="The gamer running alongside two friends, a light skinned woman wearing a black sweater and a dark skinned man wearing a pink sweater.">
+                </div>
+                <!-- <div class="background">
+                  <img src="./assets/mountains.png" class="mountains">
+                </div> -->
+              </div>
+              <div class="carousel-snapper">
+                <a href="#carouselslide-2" class="carousel-prev">
+                  <img src="./assets/carousel button prev.png" alt="Go to previous slide button" class="carousel-button">
+                </a>
+                <a href="#carouselslide-4" class="carousel-next">
+                  <img src="./assets/carousel button next.png" alt="Go to next slide button" class="carousel-button">
+                </a>
+              </div>
+            </div>
+            <div class="carousel-slide" id="carouselslide-4">
+              <div class="carousel-slide-content">
+                <div class="introtextbox">
+                  <p class="introtext">Some enjoy the challenge and competition. </p>
+                </div>
+                <div id="slide4img">
+                  <img src="./assets/carouselimg/slide4finish.png" id="finishline">
+                  <img src="./assets/carouselimg/slide4gamer.gif" id="celebrationgif">
+                  <img src="./assets/carouselimg/slide4trophy.png" id="trophy" alt="Gamer celebrates getting past the finish line and receives a first-place trophy">
+                </div>
+              </div>
+              <div class="carousel-snapper">
+                <a href="#carouselslide-3" class="carousel-prev">
+                  <img src="./assets/carousel button prev.png" alt="Go to previous slide button" class="carousel-button">
+                </a>
+                <a href="#carouselslide-5" class="carousel-next">
+                  <img src="./assets/carousel button next.png" alt="Go to next slide button" class="carousel-button">
+                </a>
+              </div>
+            </div>
+            <div class="carousel-slide" id="carouselslide-5">
+              <div class="carousel-slide-content">
+                <div class="introtextbox">
+                  <p class="introtext">Many games let you spend money inside the game.</p>
+                </div>
+                <div id="slide5img">
+                  <img src="./assets/carouselimg/slide5gamer.png" alt="Gamer holding their earnings" id="gamermoney">
+                </div>
+              </div>
+              <div class="carousel-snapper">
+                <a href="#carouselslide-4" class="carousel-prev">
+                  <img src="./assets/carousel button prev.png" alt="Go to previous slide button" class="carousel-button">
+                </a>
+                <a href="#carouselslide-6" class="carousel-next">
+                  <img src="./assets/carousel button next.png" alt="Go to next slide button" class="carousel-button">
+                </a>
+              </div>
+            </div>
+            <div class="carousel-slide" id="carouselslide-6">
+              <div class="carousel-slide-content">
+                <div class="introtextbox">
+                  <p class="introtext">These are microtransactions.</p>
+                </div>
+                <div id="slide6img">
+                  <img src="./assets/carouselimg/slide6gamer_frame1.png" alt="Gamer holding their money looking at the advertisements poppingup" id="gamermoneybag">
+                </div>
+              </div>
+              <div class="carousel-snapper">
+                <a href="#carouselslide-5" class="carousel-prev">
+                  <img src="./assets/carousel button prev.png" alt="Go to previous slide button" class="carousel-button">
+                </a>
+                <a href="#carouselslide-7" class="carousel-next">
+                  <img src="./assets/carousel button next.png" alt="Go to next slide button" class="carousel-button">
+                </a>
+              </div>
+            </div>
+            <div class="carousel-slide" id="carouselslide-7">
+              <div class="carousel-slide-content">
+                <div class="introtextbox">
+                  <p class="introtext">And this is a loot box.</p>
+                </div>
+                <div id="slide7img">
+                  <img src="./assets/carouselimg/slide7gamer_frame1.png" alt="The pop-up ads go away and a wooden box drops from above, opening in front of the gamer" id="thisisalootbox">
+                </div>
+              </div>
+              <div class="carousel-snapper">
+                <a href="#storycontinue" id="storycontinuebutton">
+                  <img src="./assets/continue.png" alt="Continue to story button" class="img-fluid" id="continuebutton">
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- carousel intro maybe? on click? or on scroll? hm -->
+        </section>
+        <div class="progress">
+          <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="offset-2 offset-md-3 col-8 col-md-6" id="storycontinue">
+              <section>
+                <p>Suffice to say, the video game industry is large, worth more than the film and music industries combined. Revenue is projected to break $400 billion next year, according to consumer data insight company Statista. For comparison, Statista lists the film industry at $81 billion in gross revenue in 2021.</p>
+                <p>The way video games make money has been highlighted by researchers and regulators in recent years. Most console or computer games make money from people buying the game. An increasing number of games however, especially mobile games, are adopting a “freemium” revenue model, where the game is available for free, but in-game content, such as costumes or characters, exist behind paywalls.</p>
+                <p>Most freemium models include microtransactions, which are smaller, incremental purchases made within the game. This can look like spending $0.99 for an extra life or $4.99 for a stash of in-game currency.</p>
+                <p>Many games that employ a freemium models also use different monetization strategies. One such strategy includes the use of “loot boxes”, in-game prizes that can be purchased either for real-world money or in-game currency, and includes a randomized item or set of items. Sometimes, these items have in-game benefits, such as new characters or weapons, or they can be cosmetic, such as new character outfits or emotes.</p>
+                <p>One look online shows many players dislike loot box mechanics, though the popularity of loot box-based video game content and the revenue generated by this mechanic show that many players engage with it. And while loot boxes have generated a wave of disapproval, they’re far from the only unregulated monetization strategy.</p>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="lootbox step" id="funbox1">
+          <div class="anotherboxforloot">
+            <div class="lootboxbox">
+              <img src="./assets/funfactboxes/funfactboxframe1.png" class="lootboximg" id="funfactbox1" alt="A loot box dropped from above, containing a fun fact. The fact reads as follows: This story's definition of loot box will include most gacha games, but even for experts, defining these terms is hard.">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="offset-2 offset-md-3 col-8 col-md-6">
+              <section>
+                <h2>SUBHEAD 1</h2>
+                <p>Every video game approaches monetization differently, including how they approach loot boxes. In Entertainment Arts’ Star Wars: Battlefront II, for example, there were four types of loot boxes that contained different kinds of rewards, all called “crates” in the game.</p>
+                <p>Three of the four crates could be purchased using in-game currencies — either credits or crystals. Credits were earned by playing the game or could be earned from the daily free loot box, which had lower odds of receiving high value items. The other type of in-game currency, crystals, could be purchased using real-world money.</p>
+                <p>The crates would often give the playable characters new abilities, or increased power in the form of “cards.” These ranged in rarity between common, uncommon, and rare. As a player, you would have an advantage if you could gain more cards by opening more crates.</p>
+                <p>You could earn credits by playing a round or two, which would likely generate the credits necessary to purchase a crate. Or, for $4.99, you could buy 500 crystals and open your crates immediately.</p>
+                <p>Whether the crates contained helpful items, or a duplicate that the player already had, was the gamble. They could also contain crafting points, used to “craft” other buffs, or even more credits. The luckiest outcome would be to unlock popular characters in the Star Wars franchise, such as Luke Skywalker or Darth Vader, through a crate. But the odds were slim, and it was all up to chance.</p>
+                <p>After opening the free daily box, players may receive common cards, increasing the maximum health of a Storm Trooper and gaining back some credits. They play another round — with the credits they accrue, they could maybe open another crate.</p>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="offset-2 offset-md-3 col-8 col-md-6">
+              <section>
+                <p>Without strong cards, players enter the round at a disadvantage. Opponents with more cards gain new abilities, making them harder to fight. For example, another player could use Luke Skywalker to trounce a Storm Trooper. Luke's 1100 health allows the opponent to live much longer than a measly 150. To stay competitive, a player would need more cards, or stronger characters, but would need more credits to open more crates to get more cards and crafting points. Or, players could always spend real world money to open the crates immediately.</p>
+                <p>Players were outraged over these loot box mechanics, some calling the game's system "pay-to-win," and criticism quickly spread online. This controversy coincided with the 2018 publication of a groundbreaking research paper showing a psychological link between <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0206767">spending on loot boxes and problem gambling</a>.</p>
+                <p>Public anger, along with new research, drew regulatory attention to video game monetization. That year, Sen. Josh Hawley (R-Missouri) <a href="https://www.theverge.com/2019/5/23/18636535/loot-boxes-josh-hawley-markey-blumenthal-privacy-video-games">introduced legislation to ban loot boxes</a> and other "pay-to-win microtransactions" in games targeted towards children. Similar laws were introduced at the state level in Hawaii and Washington. Even though none of these bills advanced, conversations about how to regulate loot boxes continued.</p>
+                <p>The Federal Trade Commission has taken on the topic of video game monetization. In 2019, they hosted a public workshop on loot boxes through the lens of consumer protection. The commission hosted another workshop in 2021 and published a 48-page staff report on <a href="https://www.ftc.gov/system/files/ftc_gov/pdf/P214800%20Dark%20Patterns%20Report%209.14.2022%20-%20FINAL.pdf">"digital dark patterns."</a> These digital dark patterns were described in the report as online design practices that may confuse or manipulate consumers into giving businesses their money or data.</p>
+                <p>On these grounds, the FTC alleged that Epic Games, creators of the popular video game Fortnite, violated consumer protection and children's privacy laws by using dark patterns in the game's store. The FTC <a href="https://www.ftc.gov/business-guidance/blog/2022/12/record-setting-ftc-settlements-fortnite-owner-epic-games-are-latest-battle-royale-against-violations">reached a settlement</a> with Epic Games on December 19, 2022, for $275 million. One of these alleged design patterns is that the store's design within Fortnite led to millions of dollars in unauthorized card charges. The game's payment system was set up to save a default credit card to the account, and there is no step to authorize the card before a purchase is made. Many of the game's 400 million players are children, who were able to spend money using their parents' default saved credit card without their parents' authorization.</p>
+                <p>These actions by the FTC are the most concrete legal precedent set in the US for video game monetization consumer protections. Prior to these actions, most video game regulation was through the Entertainment Software Rating Board, or ESRB, an industry self-regulatory body who provide content descriptions and video game ratings for parents. The ESRB <a href="https://www.esrb.org/blog/esrb-to-begin-assigning-in-game-purchases-label-to-physical-video-games/">launched the "In-Game Purchases"</a> Interactive Element tagline in 2018, so parents and consumers would know when a game contained microtransactions, and in 2020, launched the <a href="https://www.esrb.org/blog/in-game-purchases-includes-random-items/">"In-Game Purchases (Includes Random Items)"</a> tagline.</p>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="lootbox" id="funbox2">
+          <div class="anotherboxforloot">
+            <div class="lootboxbox">
+              <img src="./assets/funfactboxes/funfactboxframe1.png" class="lootboximg" id="funfactbox2" alt="A loot box dropped from above, containing a fun fact. The fact reads as follows: ">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="offset-2 offset-md-3 col-8 col-md-6">
+              <section>
+                <h2>SUBHEAD 2</h2>
+                <p>Currently, there are no laws in the US specific to video game monetization. As the ESRB is the only recognized industry self-regulatory organization in the US and its target audience is parents, there are no organizations watching the industry on behalf of players.</p>
+                <p>Most nations do not specifically regulate video games, fewer for loot boxes or monetization. Those that do regulate loot boxes typically do so under the pretenses that loot boxes are paid gambling. This means nations with strict gambling restrictions or gambling bans would then also ban paid loot box systems — which is what happened in Belgium.</p>
+                <p>The Belgian Gaming Commission, the nation's gambling regulatory body, recommended a ban on loot boxes in 2018. Even after this ban, however, 82% of the 100 top grossing iPhone games in Belgium still had loot box mechanics, according to <a href="https://online.ucpress.edu/collabra/article/9/1/57641/195100/Breaking-Ban-Belgium-s-Ineffective-Gambling-Law">a 2021 research paper</a> spearheaded by IT University of Copenhagen Ph.D. fellow Leon Y. Xiao.</p>
+                <p>The paper found that the ban lacked proper enforcement and suggested Belgium "re-evaluate its current regulatory position: either enforce the law as promised or repeal this in-name-only "ban' and pursue alternative regulatory options." Following the paper's publication, Belgian Minister of Justice Vincent Van Quickenborne responded to a Belgian outlet's question about the study and acknowledged that enforcing the ban was difficult, as there weren't enough resources to ensure compliance from all video game developers, especially smaller studios. Xiao agreed that with smaller companies, "there's nothing you can do."</p>
+                <p>Another type of loot box law exists in China, where video game companies have been required to disclose the probabilities of their loot box mechanics since 2017. Probability disclosures have been a common accommodation by video game developers, with many large US developers now including probability disclosures, following the ESA members' 2018 decision to self-regulate.</p>
+                <p>Still, in 2021, researchers found that these disclosures were being displayed irregularly across the 100 top grossing iPhone games in China. Out of the 91 games that included loot boxes, 21 only displayed probabilities in-game, 35 only displayed probabilities on the game's official website and 31 displayed probabilities both in-game and online. Four games did not display probabilities at all.</p>
+                <p>To Xiao, it's unclear how effective loot box regulation would work, because no existing regulation has been effective. Even probability disclosures are a matter of "let's provide it anyway just to be safe.'"</p>
+                <p>"It's difficult also to just define exactly what you want to regulate even when you're drafting that piece of legislation," Xiao said.</p>
+                <p>As government around the world craft ways to regulate loot boxes, Xiao acknowledged that research on loot boxes is still in its infancy, including research on player opinions.</p>
+                <p>Despite loot boxes' negative reputation, many video game content creators on platforms such as Youtube or Twitch create content focused on opening loot boxes. These videos can garner millions of views on Youtube and thousands of live viewers on Twitch, especially when the video game is incredibly popular, as is the case with miHoYo's &lsquo;Genshin Impact.'</p>
+                <p>While public player opinions on loot boxes tend to skew negative, Psychologist Dr. Natalie Coyle also highlighted that the popularity of this content and the revenue generated by loot boxes shows some players enjoy the mechanic.Coyle writes an article series titled "Psychology and Video Games," lookingat topics relating to mental health and video games. She has written a few articles on loot boxes, exploring the psychology behind loot boxes and links between gambling and gaming addiction, using published research.</p>
+                <p>Similarly, Concordia University Ph.D. candidate Andrei Zanescu pointed out that much of the discourse around loot boxes has been through the lens of gambling addiction, which misses an important part of the boxes. Zanescu is currently working on multiple projects relating to gaming, including research on how monetization in mobile gaming has morphed over time.</p>
+                <p>He also added that if the goal is to have government intervention, then regulators need to "consider that old definitions of gambling might not be sufficient to consider what's happening now."</p>
+                <p>Loot boxes are different because the monetization system is attached to a gaming entertainment experience. </p>
+                <p>Zanescu said it's difficult to "thread the needle" but that players each have different responses to different mechanics, which warrants a nuanced approach to regulation.</p>
+                <p>Xiao also said loot boxes and video game monetization strategies should be regulated as video games — not using existing frameworks set up to regulate gambling.</p>
+                <p>"What we probably need to be doing is producing much more open ended frameworks that can be modulated and applied quickly," Zanescu said.</p>
+                <p>Xiao, Coyle and Zanescu all also stressed that academic research on the impacts of video games is in its infancy, and there are many areas in gaming that need more research.</p>
+                <p>One such area is gacha gaming. A "gacha game" is a genre of video games that includes a loot box mechanic as part of its core gameplay loop. The name "gacha" comes from Japanese"gachapon"machines, where a coin is put into a machine in order to receive a random prize.</p>
+                <p>Mayor is a relative expert on gacha games. He has been a moderator of r/gachagaming, a discussion board on Reddit dedicated to gacha games, for about two years and has seen the community discuss addiction and regulation regularly. He has requested to remain anonymous to keep his real life identity from reaching members of the subreddit who disagree with his moderation decisions.</p>
+                <p>"From my experience combing through thousands of posts from people about what they want and don't want, it would be very hard to find someone who opposes legislated pity systems on lootboxes. But it would be even harder to find someone who wants their government to prohibit certain types of games based on the content," Mayor said in a message.</p>
+                <p>The "pity system" that Mayor mentioned is common in many gacha games. This is a built-in guarantee that the player will obtain the rare or limited-time item after having opened enough boxes (or, as they say in the gacha gaming community, "pull enough times").</p>
+                <p>Similar to Zanescu, Mayor disagrees with the notion that loot boxes are automatically related to addiction, though for a slightly different reason. Addiction to the video game itself is much more common, according to Mayor.</p>
+                <p>"A player who pays no money at all can be much more addicted to a gacha game than one who pays thousands. It's the player who can't say no to the game," Mayor wrote in a message.</p>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="lootbox" id="funbox3">
+          <div class="anotherboxforloot">
+            <div class="lootboxbox">
+              <img src="./assets/funfactboxes/funfactboxframe1.png" class="lootboximg" id="funfactbox3" alt="A loot box dropped from above, containing a fun fact. The fact reads as follows: ">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="offset-2 offset-md-3 col-8 col-md-6">
+              <section>
+                <h2>SUBHEAD 3</h2>
+                <p>The industry has been moving toward more diverse monetization schemes since 2018. Loot boxes are far from the only video game monetization strategy. There are limited time events and "battle passes," an in-game rewards system where players purchase a "pass" that allows them to gain new cosmetics or upgrades the more they play the game over a set amount of time.</p>
+                <p>Coyle has also seen this trend while engaging in video game community spaces, including how she's seen some posts online asking for games to bring loot boxes back rather than battle passes, in relation to "Overwatch 2," developed by Blizzard. 'Overwatch 2' released in October last year, featuring the battle pass mechanic in place of the first game's loot box system. Player feedback online about this change has been vastly negative, as the pass required consistent and high playtime to unlock all the pass' offerings within the time limit. If a player doesn't unlock their battle pass rewards in that time, they have to purchase it again.</p>
+                <p>Coyle likened the effect to a player's money "expiring."</p>
+                <p>"You can pay money and you haven't got enough content out of it so that the idea of it expires. Your money in the video game has expired," she said.</p>
+                <p>The overlapping and broader impact of monetization on players is the focus for University of York PhD researcher Elena Petrovskaya, whose research includes an interview-based study on 14 adult mobile gamers. While children are vulnerable, Petrovskaya said she wants to explore how spending on video games can impact adult video game players' lives, as most past conversation on video game monetization has been dominated by loot boxes and that these victims are often characterized as children</p>
+                <p>Many children's advocacy organizations have continued calling for loot boxes to be regulated. Most recently, 14 organizations signed and sent a letter to the FTC in June of last year, calling for the commission to investigate the loot box mechanic in popular sports game 'FIFA '23: Ultimate Team', developed by EA. Children's online safety group Fairplay spearheaded the campaign, and Haley Hinkle, Fairplay's policy counsel, said the letter was inspired by a report from the Norwegian Consumer Council that discussed how loot boxes impact children and teens. According to Hinkle, the report made clear that the monetization strategy in&lsquo;FIFA &lsquo;23: Ultimate Team'was harming child players.</p>
+                <p>"We didn't necessarily write about it, but I think we were very aware that video game consumers seem just as frustrated with these practices as anyone," Hinkle said. "When you take into account what we know developmentally about young people and the fact that they want to be playing the version that has the card packs, &hellip; this is something that kids and teens are definitely facing"</p>
+                <p>After having worked with many players through her research, Petrovskaya said she approaches video game monetization with a "negative perspective."</p>
+                <p>The 2022 FTC settlement with Epic Games presents a new tactic to address video game monetization from a consumer protection lens using the 2021 workshop and report on "digital dark patterns." Hinkle said her team was "excited" to see the settlement, as it was a step toward the commission using their unfairness authorities as well as authorities the Children's Online Privacy Protection Act.</p>
+                <p>Petrovskaya agreed that this enforcement under dark patterns is a positive step in understanding how to regulate video game monetization, serving as an acknowledgement that video games, including games as popular as 'Fortnite', have potentially manipulative designs. Other video games with dark patterns could be identified through enforcement and, as Petrovskaya said, "after several of those cases, you start to think this is a pattern."</p>
+                <p>"Some games are just designed for, you know, player spending, player like excessive play, get people really hooked on these games until they're almost forced to spend money. I have a very strong belief that that is genuinely the case in a lot of games," Petrovskaya said.</p>                  
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="margingraphics">
+          <div class="rightsideimg" id="marginad1">
+            <img src="./assets/ads/ad 1.png" class="img-fluid">
+          </div>
+          <div class="rightsideimg" id="marginad2">
+            <img src="./assets/ads/ad 2.png" class="img-fluid">
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div id="footerbox">
+          <p>Article, Art and Custom Web Design by B. Sakura Cannestra.</p>
+          <p>Advised by Richard Koci Hernandez.</p>
+          <p>This story was produced at the UC Berkeley Graduate School of Journalism, 2022-23.</p>
+          <p>Special thank you to Richard Koci Hernandez, Geeta Anand, Mike Hume, Jeremy Rue, Kira Turetzky, the UC Berkeley Graduate School of Journalism 2023 Multimedia Cohort, and everyone else who supported me along this journey.</p>
+        </div>
+      </footer>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="styles/main.js"></script>
+  </body>
 </html>

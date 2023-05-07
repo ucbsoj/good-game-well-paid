@@ -205,11 +205,11 @@ header {
 }
 
 .carousel-slide-content {
-    height: 60vh;
+    height: 80vh;
+    overflow: hidden;
 }
 
 .carousel-snapper {
-    margin-top: 100px;
     margin-right: auto;
     margin-left: auto;
     justify-content: center;
@@ -361,6 +361,10 @@ header {
     right: 22vw;
 }
 
+/* end carousel styling
+
+begin main styling */
+
 #progress-will-stick{
   position: relative;
   height: 100%;
@@ -394,26 +398,27 @@ p {
 
 a {
     text-decoration: none;
-    color: #80A041;
+    color: #CCEF76;
     font-weight: 600;
     transition: color 0.6s linear;
 }
 
 a:hover {
-    color: #CCEF76;
+    color: #76ebef;
 }
 
 .lootbox {
-    margin-top: 10%;
+    margin-top: 5%;
     width: 100vw;
 }
 
 .lootboximg {
     width: 100%;
-    text-align: center;
 }
 
-
+.margingraphics {
+    display: none;
+}
 
 /* end main styling
 
@@ -653,7 +658,12 @@ footer {
     .lootbox {
         margin-top: 10%;
         width: 100vw;
-        text-align: center;
+    }
+
+    #anotherboxforloot {
+        width: 30vw;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .lootboxbox {
@@ -662,6 +672,16 @@ footer {
 
     .lootboximg {
         width: 100%;
+    }
+
+    .margingraphics {
+        display: inherit;
+    }
+
+    .rightsideimg {
+        width: 25vw;
+        position: relative;
+        right: 0;
     }
 }
 
@@ -882,9 +902,10 @@ footer {
     }
     
     #gamermoneybag {
-        height: 50vh;
+        height: 60vh;
         position: relative;
-        left: 33vw;
+        bottom: 10vh;
+        left: 30vw;
     }
     
     #slide7img {
@@ -905,11 +926,42 @@ footer {
         text-align: center;
     }
 
-    .lootboxbox {
+    .anotherboxforloot {
         width: 30vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .lootboxbox {
+        width: 20vw;
     }
 
     .lootboximg {
         width: 100%;
+    }
+
+    .margingraphics {
+        display: inherit;
+        height: 5px;
+    }
+
+    .rightsideimg {
+        width: 25vw;
+        position: relative;
+        right: 0;
+    }
+
+    #marginad1 {
+        width: 5vw;
+        position: relative;
+        bottom: 2000vh;
+        margin-left: 5%;
+    }
+
+    #marginad2 {
+        width: 8vw;
+        position: relative;
+        bottom: 2060vh;
+        margin-left: 18%;
     }
 }
