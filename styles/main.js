@@ -20,14 +20,14 @@ $("a[href='#carouselslide-7']").on("click", function(){
 });
 
 
-// this changes the loot boxes
+// this changes the first loot box
 const lootbox1 = $("#funfactbox1").offset().top;
         
 $(window).on("scroll", function(){
   
   $("#scroll-counter").text(Math.round($(document).scrollTop()));
   
-  if( $(document).scrollTop() > lootbox1){
+  if( $(document).scrollTop() + $(window).height() / 2 > lootbox1){
     
     $("#funfactbox1").attr("src", "./assets/funfactboxes/funfact-box-1.gif");
     
@@ -35,14 +35,35 @@ $(window).on("scroll", function(){
   
 });
 
+// loot box number two 
 const lootbox2 = $("#funfactbox2").offset().top;
 
 $(window).on("scroll", function(){
+
   $("#scroll-counter").text(Math.round($(document).scrollTop()));
-  if( $(document).scrollTop() > lootbox2) {
+  
+  if( $(document).scrollTop() + $(window).height() / 2 > lootbox2) {
+
     $("#funfactbox2").attr("src", "./assets/funfactboxes/funfact-box-1.gif");
-  }
-})
+  
+  f}
+
+});
+
+const lootbox3 = $("#funfactbox3").offset().top;
+
+$(window).on("scroll", function(){
+
+  $("#scroll-counter").text(Math.round($(document).scrollTop()));
+  
+  if( $(document).scrollTop() + $(window).height() / 2 > lootbox3) {
+
+    $("#funfactbox3").attr("src", "./assets/funfactboxes/funfact-box-1.gif");
+  
+  f}
+
+});
+
 
 
 /* JRUE NOTES vvvvv

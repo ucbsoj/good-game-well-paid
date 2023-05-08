@@ -412,12 +412,40 @@ a:hover {
     width: 100vw;
 }
 
+.anotherboxforloot {
+    width: 30vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .lootboximg {
     width: 100%;
 }
 
 .margingraphics {
     display: none;
+}
+
+.midrollgraphics {
+    display: inline;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.midrollrunner {
+    width: 13vw;
+    margin: 0 3%;
+}
+
+#midrollgamer2 {
+    width: 13vw;
+}
+
+.midrollcoin {
+    width: 7vw;
+    margin-bottom: 15%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 /* end main styling
@@ -530,9 +558,12 @@ footer {
     }
 
     .carousel-snapper {
-        margin-top: 20vh;
-        width: 50vw;
+        margin-right: auto;
+        margin-left: auto;
         justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: auto;
     }
     
     .carousel-button {
@@ -674,8 +705,265 @@ footer {
         width: 100%;
     }
 
+    .midrollgraphics {
+        display: inline;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .midrollrunner {
+        width: 8vw;
+        margin: 0 6%;
+    }
+
+    #midrollgamer2 {
+        width: 5vw;
+    }
+    
+    .midrollcoin {
+        width: 3vw;
+        margin-bottom: 15%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
     .margingraphics {
         display: inherit;
+        height: 5px;
+    }
+
+    #marginad1 {
+        width: 5vw;
+        position: relative;
+        bottom: 280vh;
+        margin-left: 5%;
+    }
+
+    #marginad2 {
+        width: 8vw;
+        position: relative;
+        bottom: 300vh;
+        margin-left: 12%;
+    }
+    
+    #marginad3 {
+        width: 5vw;
+        position: relative;
+        bottom: 295vh;
+        margin-left: 18%;
+    }
+
+    #marginad4 {
+        width: 8vw;
+        position: relative;
+        bottom: 280vh;
+        margin-left: 8%;
+    }
+
+    #marginad5 {
+        width: 5vw;
+        position: relative;
+        bottom: 278vh;
+        margin-left: 75%;
+    }
+
+    #marginad6 {
+        width: 8vw;
+        position: relative;
+        bottom: 310vh;
+        margin-left: 85%;
+    }
+
+    #marginad7 {
+        width: 5vw;
+        position: relative;
+        bottom: 260vh;
+        margin-left: 88%;
+    }
+
+    #marginad8 {
+        width: 8vw;
+        position: relative;
+        bottom: 300vh;
+        margin-left: 90%;
+    }
+
+    .margincoin {
+        width: 4vw;
+    }
+
+    #coin1 {
+        position: relative;
+        bottom: 690vh;
+        margin-left: 10%;
+    }
+
+    #coin2 {
+        position: relative;
+        bottom: 650vh;
+        margin-left: 13%;
+    }
+
+    #coin3 {
+        position: relative;
+        bottom: 570vh;
+        margin-left: 18%;
+    }
+
+    #coin4 {
+        position: relative;
+        bottom: 709vh;
+        margin-left: 75%;
+    }
+
+    #coin5 {
+        position: relative;
+        bottom: 570vh;
+        margin-left: 83%;
+    }
+
+    #coin6 {
+        position: relative;
+        bottom: 600vh;
+        margin-left: 90%;
+    }
+
+    #coin7 {
+        position: relative;
+        bottom: 650vh;
+        margin-left: 75%;
+    }
+
+    #coin8 {
+        position: relative;
+        bottom: 700vh;
+        margin-left: 20%;
+    }
+
+    #coin9 {
+        position: relative;
+        bottom: 590vh;
+        margin-left: 14%;
+    }
+
+    #coin10 {
+        position: relative;
+        bottom: 700vh;
+        margin-left: 8%;
+    }
+
+    #coin11 {
+        position: relative;
+        bottom: 695vh;
+        margin-left: 18%;
+    }
+
+    #coin12 {
+        position: relative;
+        bottom: 720vh;
+        margin-left: 80%;
+    }
+
+    #coin13 {
+        position: relative;
+        bottom: 770vh;
+        margin-left: 89%;
+    }
+
+    #coin14 {
+        position: relative;
+        bottom: 770vh;
+        margin-left: 87%;
+    }
+
+    #coin15 {
+        position: relative;
+        bottom: 690vh;
+        margin-left: 10%;
+    }
+
+    #coin16 {
+        position: relative;
+        bottom: 706vh;
+        margin-left: 14%;
+    }
+
+    #coin17 {
+        position: relative;
+        bottom: 698vh;
+        margin-left: 3%;
+    }
+
+    #coin18 {
+        position: relative;
+        bottom: 700vh;
+        margin-left: 11%;
+    }
+
+    #coin19 {
+        position: relative;
+        bottom: 686vh;
+        margin-left: 87%;
+    }
+
+    #coin20 {
+        position: relative;
+        bottom: 703vh;
+        margin-left: 82%;
+    }
+
+    #coin21 {
+        position: relative;
+        bottom: 714vh;
+        margin-left: 90%;
+    }
+
+    #coin22 {
+        position: relative;
+        bottom: 700vh;
+        margin-left: 78%;
+    }
+
+    #coin23 {
+        position: relative;
+        bottom: 690vh;
+        margin-left: 89%;
+    }
+
+    #coin24 {
+        position: relative;
+        bottom: 800vh;
+        margin-left: 84%;
+    }
+
+    #coin25 {
+        position: relative;
+        bottom: 800vh;
+        margin-left: 78%;
+    }
+
+    #coin26 {
+        position: relative;
+        bottom: 830vh;
+        margin-left: 5%;
+    }
+
+    #coin27 {
+        position: relative;
+        bottom: 826vh;
+        margin-left: 4%;
+    }
+
+    #coin28 {
+        position: relative;
+        bottom: 835vh;
+        margin-left: 14%;
+    }
+
+    #coin29 {
+        position: relative;
+        bottom: 814vh;
+        margin-left: 94%;
     }
 
     .rightsideimg {
@@ -940,6 +1228,28 @@ footer {
         width: 100%;
     }
 
+    .midrollgraphics {
+        display: inline;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .midrollrunner {
+        width: 6vw;
+        margin: 0 8%;
+    }
+
+    #midrollgamer2 {
+        width: 6vw;
+    }
+    
+    .midrollcoin {
+        width: 3vw;
+        margin-bottom: 10%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
     .margingraphics {
         display: inherit;
         height: 5px;
@@ -947,21 +1257,243 @@ footer {
 
     .rightsideimg {
         width: 25vw;
-        position: relative;
-        right: 0;
+    }
+
+    .leftsideimg {
+        width: 25vw;
     }
 
     #marginad1 {
         width: 5vw;
         position: relative;
-        bottom: 2000vh;
+        bottom: 280vh;
         margin-left: 5%;
     }
 
     #marginad2 {
         width: 8vw;
         position: relative;
-        bottom: 2060vh;
+        bottom: 300vh;
+        margin-left: 12%;
+    }
+    
+    #marginad3 {
+        width: 5vw;
+        position: relative;
+        bottom: 295vh;
         margin-left: 18%;
+    }
+
+    #marginad4 {
+        width: 8vw;
+        position: relative;
+        bottom: 280vh;
+        margin-left: 8%;
+    }
+
+    #marginad5 {
+        width: 5vw;
+        position: relative;
+        bottom: 278vh;
+        margin-left: 75%;
+    }
+
+    #marginad6 {
+        width: 8vw;
+        position: relative;
+        bottom: 310vh;
+        margin-left: 85%;
+    }
+
+    #marginad7 {
+        width: 5vw;
+        position: relative;
+        bottom: 260vh;
+        margin-left: 88%;
+    }
+
+    #marginad8 {
+        width: 8vw;
+        position: relative;
+        bottom: 300vh;
+        margin-left: 90%;
+    }
+
+    .margincoin {
+        width: 4vw;
+    }
+
+    #coin1 {
+        position: relative;
+        bottom: 690vh;
+        margin-left: 10%;
+    }
+
+    #coin2 {
+        position: relative;
+        bottom: 650vh;
+        margin-left: 13%;
+    }
+
+    #coin3 {
+        position: relative;
+        bottom: 570vh;
+        margin-left: 18%;
+    }
+
+    #coin4 {
+        position: relative;
+        bottom: 709vh;
+        margin-left: 75%;
+    }
+
+    #coin5 {
+        position: relative;
+        bottom: 570vh;
+        margin-left: 83%;
+    }
+
+    #coin6 {
+        position: relative;
+        bottom: 600vh;
+        margin-left: 90%;
+    }
+
+    #coin7 {
+        position: relative;
+        bottom: 650vh;
+        margin-left: 75%;
+    }
+
+    #coin8 {
+        position: relative;
+        bottom: 700vh;
+        margin-left: 20%;
+    }
+
+    #coin9 {
+        position: relative;
+        bottom: 590vh;
+        margin-left: 14%;
+    }
+
+    #coin10 {
+        position: relative;
+        bottom: 700vh;
+        margin-left: 8%;
+    }
+
+    #coin11 {
+        position: relative;
+        bottom: 695vh;
+        margin-left: 18%;
+    }
+
+    #coin12 {
+        position: relative;
+        bottom: 720vh;
+        margin-left: 80%;
+    }
+
+    #coin13 {
+        position: relative;
+        bottom: 770vh;
+        margin-left: 89%;
+    }
+
+    #coin14 {
+        position: relative;
+        bottom: 770vh;
+        margin-left: 87%;
+    }
+
+    #coin15 {
+        position: relative;
+        bottom: 690vh;
+        margin-left: 10%;
+    }
+
+    #coin16 {
+        position: relative;
+        bottom: 706vh;
+        margin-left: 14%;
+    }
+
+    #coin17 {
+        position: relative;
+        bottom: 698vh;
+        margin-left: 3%;
+    }
+
+    #coin18 {
+        position: relative;
+        bottom: 700vh;
+        margin-left: 11%;
+    }
+
+    #coin19 {
+        position: relative;
+        bottom: 686vh;
+        margin-left: 87%;
+    }
+
+    #coin20 {
+        position: relative;
+        bottom: 703vh;
+        margin-left: 82%;
+    }
+
+    #coin21 {
+        position: relative;
+        bottom: 714vh;
+        margin-left: 90%;
+    }
+
+    #coin22 {
+        position: relative;
+        bottom: 700vh;
+        margin-left: 78%;
+    }
+
+    #coin23 {
+        position: relative;
+        bottom: 690vh;
+        margin-left: 89%;
+    }
+
+    #coin24 {
+        position: relative;
+        bottom: 800vh;
+        margin-left: 84%;
+    }
+
+    #coin25 {
+        position: relative;
+        bottom: 800vh;
+        margin-left: 78%;
+    }
+
+    #coin26 {
+        position: relative;
+        bottom: 830vh;
+        margin-left: 5%;
+    }
+
+    #coin27 {
+        position: relative;
+        bottom: 826vh;
+        margin-left: 4%;
+    }
+
+    #coin28 {
+        position: relative;
+        bottom: 835vh;
+        margin-left: 14%;
+    }
+
+    #coin29 {
+        position: relative;
+        bottom: 814vh;
+        margin-left: 94%;
     }
 }
