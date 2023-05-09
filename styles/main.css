@@ -407,13 +407,17 @@ a:hover {
     color: #76ebef;
 }
 
+.subhead {
+    margin-top: 10%;
+}
+
 .lootbox {
     margin-top: 5%;
     width: 100vw;
 }
 
 .anotherboxforloot {
-    width: 30vw;
+    width: 80vw;
     margin-right: auto;
     margin-left: auto;
 }
