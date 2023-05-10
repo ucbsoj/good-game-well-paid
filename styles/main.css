@@ -471,6 +471,7 @@ a:hover {
 
 .midrollcoin {
     width: 7vw;
+    margin-top: 10%;
     margin-bottom: 15%;
     margin-left: 2%;
     margin-right: 2%;
@@ -503,8 +504,7 @@ footer {
 
 #midrollme {
     width: 30vw;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 10%;
 }
 
 
@@ -757,8 +757,8 @@ footer {
         margin-bottom: 5%;
         padding-top: 3%;
         padding-bottom: 3%;
-        border-top: #76ebef solid 2px;
-        border-bottom: #76ebef solid 2px;
+        border-top: #76ebef solid 4px;
+        border-bottom: #76ebef solid 4px;
     }
 
     .attribox {
@@ -776,6 +776,10 @@ footer {
         display: inline;
         margin-right: auto;
         margin-left: auto;
+    }
+
+    .midrollmobile {
+        display: none;
     }
     
     .midrollrunner {
@@ -1329,8 +1333,8 @@ footer {
         margin-bottom: 5%;
         padding-top: 3%;
         padding-bottom: 3%;
-        border-top: #76ebef solid 2px;
-        border-bottom: #76ebef solid 2px;
+        border-top: #76ebef solid 4px;
+        border-bottom: #76ebef solid 4px;
     }
 
     .attribox {
@@ -1347,6 +1351,10 @@ footer {
         display: inline;
         margin-right: auto;
         margin-left: auto;
+    }
+
+    .midrollmobile {
+        display: none;
     }
 
     .midrollrunner {
@@ -1381,56 +1389,56 @@ footer {
     #marginad1 {
         width: 5vw;
         position: relative;
-        bottom: 280vh;
+        bottom: 380vh;
         margin-left: 5%;
     }
 
     #marginad2 {
         width: 8vw;
         position: relative;
-        bottom: 300vh;
+        bottom: 400vh;
         margin-left: 12%;
     }
     
     #marginad3 {
         width: 5vw;
         position: relative;
-        bottom: 295vh;
+        bottom: 395vh;
         margin-left: 18%;
     }
 
     #marginad4 {
         width: 8vw;
         position: relative;
-        bottom: 280vh;
+        bottom: 380vh;
         margin-left: 8%;
     }
 
     #marginad5 {
         width: 5vw;
         position: relative;
-        bottom: 278vh;
+        bottom: 378vh;
         margin-left: 75%;
     }
 
     #marginad6 {
         width: 8vw;
         position: relative;
-        bottom: 310vh;
+        bottom: 410vh;
         margin-left: 85%;
     }
 
     #marginad7 {
         width: 5vw;
         position: relative;
-        bottom: 260vh;
+        bottom: 360vh;
         margin-left: 88%;
     }
 
     #marginad8 {
         width: 8vw;
         position: relative;
-        bottom: 300vh;
+        bottom: 400vh;
         margin-left: 90%;
     }
 
@@ -1440,43 +1448,43 @@ footer {
 
     #coin1 {
         position: relative;
-        bottom: 690vh;
+        bottom: 540vh;
         margin-left: 10%;
     }
 
     #coin2 {
         position: relative;
-        bottom: 650vh;
+        bottom: 520vh;
         margin-left: 13%;
     }
 
     #coin3 {
         position: relative;
-        bottom: 570vh;
+        bottom: 450vh;
         margin-left: 18%;
     }
 
     #coin4 {
         position: relative;
-        bottom: 709vh;
+        bottom: 585vh;
         margin-left: 75%;
     }
 
     #coin5 {
         position: relative;
-        bottom: 570vh;
+        bottom: 520vh;
         margin-left: 83%;
     }
 
     #coin6 {
         position: relative;
-        bottom: 600vh;
+        bottom: 500vh;
         margin-left: 90%;
     }
 
     #coin7 {
         position: relative;
-        bottom: 650vh;
+        bottom: 520vh;
         margin-left: 75%;
     }
 
@@ -1488,79 +1496,79 @@ footer {
 
     #coin9 {
         position: relative;
-        bottom: 590vh;
+        bottom: 560vh;
         margin-left: 14%;
     }
 
     #coin10 {
         position: relative;
-        bottom: 700vh;
+        bottom: 560vh;
         margin-left: 8%;
     }
 
     #coin11 {
         position: relative;
-        bottom: 695vh;
+        bottom: 475vh;
         margin-left: 18%;
     }
 
     #coin12 {
         position: relative;
-        bottom: 720vh;
+        bottom: 630vh;
         margin-left: 80%;
     }
 
     #coin13 {
         position: relative;
-        bottom: 770vh;
+        bottom: 530vh;
         margin-left: 89%;
     }
 
     #coin14 {
         position: relative;
-        bottom: 770vh;
+        bottom: 520vh;
         margin-left: 87%;
     }
 
     #coin15 {
         position: relative;
-        bottom: 690vh;
+        bottom: 590vh;
         margin-left: 10%;
     }
 
     #coin16 {
         position: relative;
-        bottom: 706vh;
+        bottom: 435vh;
         margin-left: 14%;
     }
 
     #coin17 {
         position: relative;
-        bottom: 698vh;
+        bottom: 598vh;
         margin-left: 3%;
     }
 
     #coin18 {
         position: relative;
-        bottom: 700vh;
+        bottom: 600vh;
         margin-left: 11%;
     }
 
     #coin19 {
         position: relative;
-        bottom: 686vh;
+        bottom: 486vh;
         margin-left: 87%;
     }
 
     #coin20 {
         position: relative;
-        bottom: 703vh;
+        bottom: 603vh;
         margin-left: 82%;
     }
 
     #coin21 {
         position: relative;
-        bottom: 714vh;
+        bottom: 514vh;
         margin-left: 90%;
     }
 
@@ -1622,6 +1630,7 @@ footer {
         width: 10vw;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 20%;
     }
     
     /* end main styling
@@ -1641,7 +1650,8 @@ footer {
     }
     
     .footertext {
-        font-size: inherit;
+        font-size: 0.6rem;
+        margin: 2% 0 2% 0;
     }
 
 }
