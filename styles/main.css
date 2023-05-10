@@ -108,12 +108,16 @@ header {
     width: 40vw;
     padding: 20px 60px;
     background-color: #B53D48;
+    transition: background-color 0.5s linear;
     border-radius: 70px;
     border: solid #B53D48;
-    transition: background-color 0.6s linear;
 }
 
 #startbuttonbox:hover {
+    background-color: #1E1F20;
+}
+
+#startbuttonbox:active {
     background-color: #1E1F20;
 }
 
@@ -408,7 +412,7 @@ a:hover {
 }
 
 .subhead {
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 .lootbox {
@@ -424,6 +428,26 @@ a:hover {
 
 .lootboximg {
     width: 100%;
+}
+
+.pullquotebox {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-top: #76ebef solid 2px;
+    border-bottom: #76ebef solid 2px;
+}
+
+.attribox {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.pullquoteattrib {
+    margin: 0;
+    font-size: 0.6rem;
+    color: #B2DEE8;
 }
 
 .margingraphics {
@@ -452,11 +476,19 @@ a:hover {
     margin-right: 2%;
 }
 
+#lastlootbox {
+    width: 40vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* end main styling
 
 begin footer styling */
 
 footer {
+    margin-top: 20%;
+    padding-left: 10%;
     width: 100vw;
     border-top:#F4F5F5 solid 2px;
 }
@@ -464,6 +496,17 @@ footer {
 #footerbox {
     width: 80vw;
 }
+
+.footertext {
+    font-size: 0.7rem;
+}
+
+#midrollme {
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /*************** THIS IS THE FORMATTING FOR MEDIUM SCREENS ******************/
 
@@ -707,6 +750,26 @@ footer {
 
     .lootboximg {
         width: 100%;
+    }
+
+    .pullquotebox {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        border-top: #76ebef solid 2px;
+        border-bottom: #76ebef solid 2px;
+    }
+
+    .attribox {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .pullquoteattrib {
+        font-size: 0.6rem;
+        color: #B2DEE8;
+        margin: 0;
     }
 
     .midrollgraphics {
@@ -975,6 +1038,35 @@ footer {
         position: relative;
         right: 0;
     }
+
+    #midrollme {
+        width: 10vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* end main styling
+    
+    begin footer styling */
+    
+    footer {
+        margin-top: 20%;
+        padding-left: 10%;
+        width: 100vw;
+        border-top:#F4F5F5 solid 2px;
+    }
+    
+    #footerbox {
+        width: 50vw;
+    }
+    
+    .footertext {
+        font-size: 0.7rem;
+    }
+    
+    .footertext-small {
+        font-size: 0.5rem;
+    }
 }
 
 /*********************** BIG SCREEN FORMATTING HERE ***********************/
@@ -1230,6 +1322,25 @@ footer {
 
     .lootboximg {
         width: 100%;
+    }
+
+    .pullquotebox {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        border-top: #76ebef solid 2px;
+        border-bottom: #76ebef solid 2px;
+    }
+
+    .attribox {
+        margin-top: 10%;
+    }
+    
+    .pullquoteattrib {
+        font-size: 0.75rem;
+        color: #B2DEE8;
+        margin: 0;
     }
 
     .midrollgraphics {
@@ -1500,4 +1611,37 @@ footer {
         bottom: 814vh;
         margin-left: 94%;
     }
+
+    #lastlootbox {
+        width: 10vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #midrollme {
+        width: 10vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* end main styling
+    
+    begin footer styling */
+    
+    footer {
+        margin-top: 10%;
+        width: 100vw;
+        border-top:#F4F5F5 solid 2px;
+    }
+    
+    #footerbox {
+        width: 70vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .footertext {
+        font-size: inherit;
+    }
+
 }

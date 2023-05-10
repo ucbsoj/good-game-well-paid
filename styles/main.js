@@ -1,5 +1,5 @@
 
-//progress bar JS
+//progress bar 
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
@@ -10,7 +10,7 @@ function myFunction() {
 } 
 
 
-// this changes the images in the carousel
+// this changes the images in the carousel from static to gif
 $("a[href='#carouselslide-6']").on("click", function(){
   $("#gamermoneybag").attr("src", "./assets/carouselimg/slide6gamer.gif")
 });
